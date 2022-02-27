@@ -10,9 +10,6 @@ export const Layout = (props: React.PropsWithChildren<{}>) => {
       <Header />
       {props.children}
       <Footer />
-      <a href="#" id="play-button">
-        play!
-      </a>
       <a href="#" className="scrollToTop">
         <i className="icofont-stylish-up"></i>
       </a>

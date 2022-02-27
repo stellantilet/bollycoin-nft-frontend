@@ -131,6 +131,19 @@ button:-moz-focusring,
     outline: 1px dotted ButtonText
 }
 
+.default-btn:disabled {
+    cursor: not-allowed;
+    background-color: gray;
+}
+.default-btn:disabled:hover {
+    transform: inherit;
+    color: inherit;
+}
+
+.default-btn.move-top:disabled:before {
+    background-color: gray !important;
+}
+
 fieldset {
     padding: .35em .75em .625em
 }
@@ -1291,7 +1304,6 @@ ol {
 
 .section-header.style-2 h3 {
     position: inherit;
-    z-index: 1;
     background-color: #000d21;
     padding-inline: 1rem;
     text-transform: uppercase

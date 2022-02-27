@@ -14,8 +14,8 @@ const Header = () => {
   const { address } = userState;
   let addressShorten = "";
   if (address) {
-    addressShorten = `${address.substring(0, 6)}...${address.substring(
-      address.length - 4,
+    addressShorten = `${address.substring(0, 5)}...${address.substring(
+      address.length - 3,
       address.length
     )}`;
   }
@@ -50,17 +50,20 @@ const Header = () => {
           <div className="header__actions">
             <button
               data-blast="bgColor"
-              onClick={() => {}}
+              onClick={handleConnectWallet}
               className="default-btn move-top"
             >
-              {addressShorten ? (
-                <img
-                  src={userState.wallet.icons.iconSrc}
-                  alt="wallet-icon"
-                  width="28px"
-                />
-              ) : null}
-              {addressShorten ? `${addressShorten}` : "Connect"}
+              <span>
+                {addressShorten ? (
+                  <img
+                    src={userState.wallet.icons.iconSrc}
+                    alt="wallet-icon"
+                    style={{ marginLeft: "-15px" }}
+                    width="28px"
+                  />
+                ) : null}
+                {addressShorten ? `${addressShorten}` : "Connect"}
+              </span>
             </button>
           </div>
 
