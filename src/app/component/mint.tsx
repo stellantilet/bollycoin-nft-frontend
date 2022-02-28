@@ -104,7 +104,7 @@ const MintCard = ({
                     {price === 0 ? "__" : price} ETH
                   </span>
                 </p>
-                <p className="h3">
+                <p className="h5">
                   {maxSupply === 0 ? (
                     "__ / __ "
                   ) : (
