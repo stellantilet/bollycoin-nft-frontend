@@ -98,12 +98,6 @@ const MintCard = ({
                 <span>{nftType}</span>
               </h4>
               <div className="detail">
-                <p className="nft-price">
-                  Price:{" "}
-                  <span className="yellow-color">
-                    {price === 0 ? "__" : price} ETH
-                  </span>
-                </p>
                 <p className="h5">
                   {maxSupply === 0 ? (
                     "__ / __ "
@@ -112,6 +106,12 @@ const MintCard = ({
                       {currentSupply} / {maxSupply}
                     </>
                   )}
+                </p>
+                <p className="nft-price">
+                  Price:{" "}
+                  <span className="yellow-color">
+                    {price === 0 ? "__" : price} ETH
+                  </span>
                 </p>
                 <button
                   disabled={disabled || submitting}
@@ -170,7 +170,7 @@ export const Mint = () => {
                 disabled={disabled}
               />
               <MintCard
-                image="/assets/images/mint/ticket-1.png"
+                image="/assets/images/mint/ticket-4.png"
                 nftType="Bronze"
                 disabled={disabled}
               />

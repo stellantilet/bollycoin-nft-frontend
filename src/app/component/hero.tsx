@@ -70,7 +70,7 @@ export const Hero = () => {
                             <div className="nft-thumb text-center">
                               <img
                                 loading="lazy"
-                                src="assets/images/mint/ticket-1.png"
+                                src="assets/images/mint/ticket-4.png"
                                 alt="nft-img"
                                 className="img-responsive"
                               />
