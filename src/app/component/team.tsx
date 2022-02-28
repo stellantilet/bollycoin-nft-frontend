@@ -4,12 +4,12 @@ export const TeamItem = ({
   name,
   image,
   post,
-  twitterUrl,
+  url,
 }: {
   name: string;
   image: any;
   post: string;
-  twitterUrl?: string;
+  url?: string;
 }) => {
   return (
     <div className="col-xl-3 col-lg-4 col-sm-6">
@@ -18,12 +18,17 @@ export const TeamItem = ({
           <div className="nft-item-top d-flex justify-content-between align-items-center"></div>
           <div className="nft-item-bottom">
             <div className="nft-thumb">
-              <img loading="lazy" src={image} className="team-img" alt="team-img" />
+              <img
+                loading="lazy"
+                src={image}
+                className="team-img"
+                alt="team-img"
+              />
             </div>
             <div className="nft-content" style={{ paddingBottom: "25px" }}>
               <h4>{name}</h4>
               <h6>
-                <a href={twitterUrl} rel="noreferrer" target="_blank">
+                <a href={url} rel="noreferrer" target="_blank">
                   ({post})
                 </a>
               </h6>
@@ -53,18 +58,19 @@ export const Team = () => {
                 name="Vishal Malhotra"
                 image="/assets/images/team-1.jpg"
                 post="Founder"
-                twitterUrl="https://twitter.com/Vishhman?t=8aQL--RINvsCNBB8ovMvPQ&amp;s=09"
+                url="https://twitter.com/Vishhman?t=8aQL--RINvsCNBB8ovMvPQ&amp;s=09"
               />
               <TeamItem
                 name="Rick De"
                 image="/assets/images/team-2.jpg"
                 post="Project Head"
-                twitterUrl="https://twitter.com/rdtect?t=DGVCjtQTx72pXiVE1KCFUw&amp;s=09"
+                url="https://twitter.com/rdtect?t=DGVCjtQTx72pXiVE1KCFUw&amp;s=09"
               />
               <TeamItem
                 name="RatLab"
                 image="/assets/images/team-3.png"
                 post="Solidity Developer Team"
+                url="https://github.com/RatLab2022"
               />
             </div>
           </div>
