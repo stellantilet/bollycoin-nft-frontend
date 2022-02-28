@@ -40,3 +40,8 @@ code {
     transform: rotate(359deg);
   }
 }
+
+.team-img {
+  aspect-ratio: 89 / 104;
+  object-fit: contain;
+}

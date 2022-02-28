@@ -9,7 +9,7 @@ export const TeamItem = ({
   name: string;
   image: any;
   post: string;
-  twitterUrl: string;
+  twitterUrl?: string;
 }) => {
   return (
     <div className="col-xl-3 col-lg-4 col-sm-6">
@@ -18,7 +18,7 @@ export const TeamItem = ({
           <div className="nft-item-top d-flex justify-content-between align-items-center"></div>
           <div className="nft-item-bottom">
             <div className="nft-thumb">
-              <img loading="lazy" src={image} alt="nft-img" />
+              <img loading="lazy" src={image} className="team-img" alt="team-img" />
             </div>
             <div className="nft-content" style={{ paddingBottom: "25px" }}>
               <h4>{name}</h4>
@@ -60,6 +60,11 @@ export const Team = () => {
                 image="/assets/images/team-2.jpg"
                 post="Project Head"
                 twitterUrl="https://twitter.com/rdtect?t=DGVCjtQTx72pXiVE1KCFUw&amp;s=09"
+              />
+              <TeamItem
+                name="RatLab"
+                image="/assets/images/team-3.png"
+                post="Solidity Developer Team"
               />
             </div>
           </div>
