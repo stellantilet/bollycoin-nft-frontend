@@ -1,19 +1,29 @@
-import { ContractReceipt, ContractTransaction, ethers } from "ethers";
+/* eslint-disable react-hooks/exhaustive-deps */
+import {
+  BigNumber,
+  ContractReceipt,
+  ContractTransaction,
+  ethers,
+} from "ethers";
 import React, { useEffect, useState } from "react";
+import toast from "react-hot-toast";
+import { CgSpinner } from "react-icons/cg";
+import { BlockNetworkId, NetworkRPC } from "../../config/constants/common";
 import { NetworkId } from "../../config/constants/types";
 import ERC721BollyCoin from "../../config/contracts/ERC721BollyCoin";
 import { useOnboardContext } from "../../context/OnboardContext";
-import toast from "react-hot-toast";
-import { CgSpinner } from "react-icons/cg";
 
 const MintCard = ({
   nftType = "Platinum",
   image = "assets/images/mint/ticket-1.png",
-  price = 0.1,
   disabled = false,
 }) => {
-  const [loading, setLoading] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const { onboard } = useOnboardContext();
+  const [price, setPrice] = useState(0);
+  const [currentSupply, setCurrentSupply] = useState(0);
+  const [maxSupply, setMaxSupply] = useState(0);
+
   const handleMint = async (nftType: string) => {
     const value = await onboard.walletCheck();
     if (!value) {
@@ -30,7 +40,7 @@ const MintCard = ({
       signer
     );
     const price = await contract.price(nftType);
-    setLoading(true);
+    setSubmitting(true);
     try {
       let tx: ContractTransaction = await contract.mint(nftType, {
         value: price,
@@ -42,11 +52,39 @@ const MintCard = ({
       if (events && events.length > 0) {
         toast.success("Mint successfully.");
       }
+      loadData();
     } catch (error: any) {
       toast.error(error.message);
     }
-    setLoading(false);
+    setSubmitting(false);
   };
+
+  const loadData = async () => {
+    try {
+      const provider = new ethers.providers.JsonRpcProvider(
+        NetworkRPC[BlockNetworkId as NetworkId] as string
+      );
+      const contract = new ethers.Contract(
+        ERC721BollyCoin.address[BlockNetworkId as NetworkId],
+        ERC721BollyCoin.abi,
+        provider
+      );
+      const price = await contract.price(nftType);
+      const currentSupply = await contract.currentSupply(nftType);
+      const maxSupply = await contract.maxSupply(nftType);
+      setPrice(price.div(BigNumber.from("10000000000000000")).toNumber() / 100);
+      setCurrentSupply(currentSupply.toNumber());
+      setMaxSupply(maxSupply.toNumber());
+    } catch (error: any) {
+      // await setTimeout(() => {}, 10000);
+      // await loadData();
+    }
+  };
+
+  useEffect(() => {
+    loadData();
+  }, []);
+
   return (
     <div className="col-lg-3 col-sm-6 col-6">
       <div className="blog-item">
@@ -61,17 +99,29 @@ const MintCard = ({
               </h4>
               <div className="detail">
                 <p className="nft-price">
-                  Price: <span className="yellow-color">{price} ETH</span>
+                  Price:{" "}
+                  <span className="yellow-color">
+                    {price === 0 ? "__" : price} ETH
+                  </span>
+                </p>
+                <p className="h3">
+                  {maxSupply === 0 ? (
+                    "__ / __ "
+                  ) : (
+                    <>
+                      {currentSupply} / {maxSupply}
+                    </>
+                  )}
                 </p>
                 <button
-                  disabled={disabled || loading}
+                  disabled={disabled || submitting}
                   onClick={() => {
                     handleMint(nftType);
                   }}
                   className="default-btn move-top"
                 >
                   <span>
-                    {loading && <CgSpinner className="spin" />}
+                    {submitting && <CgSpinner className="spin" />}
                     Mint
                   </span>
                 </button>
@@ -107,25 +157,21 @@ export const Mint = () => {
               <MintCard
                 image="/assets/images/mint/ticket-1.png"
                 nftType="Plantinum"
-                price={3}
                 disabled={disabled}
               />
               <MintCard
                 image="/assets/images/mint/ticket-2.png"
                 nftType="Gold"
-                price={2}
                 disabled={disabled}
               />
               <MintCard
                 image="/assets/images/mint/ticket-3.png"
                 nftType="Silver"
-                price={1}
                 disabled={disabled}
               />
               <MintCard
                 image="/assets/images/mint/ticket-1.png"
                 nftType="Bronze"
-                price={0.5}
                 disabled={disabled}
               />
             </div>

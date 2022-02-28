@@ -1,7 +1,7 @@
 import Onboard from "bnc-onboard";
 import { API, Wallet } from "bnc-onboard/dist/src/interfaces";
 import React, { Component, createContext, useContext } from "react";
-import { BLOCK_NATIVE_API_KEY, BLOCK_NETWORK_ID } from "../config/constants/blocknative";
+import { BlockNativeAPIKey, BlockNetworkId } from "../config/constants/common";
 
 export type OnBoardContextType = {
   onboard: API;
@@ -39,8 +39,8 @@ class OnboardProvider extends Component {
     super(props);
 
     const initialisation = {
-      dappId: BLOCK_NATIVE_API_KEY,
-      networkId: BLOCK_NETWORK_ID,
+      dappId: BlockNativeAPIKey,
+      networkId: BlockNetworkId,
       walletCheck: walletChecks,
       walletSelect: {
         heading: "Select a wallet",
