@@ -1,4 +1,4 @@
-const ERC721BollyCoin = {
+const ERC721LetsCollect = {
   address: {
     97: "0xA6B2e7b68236442B4230EFFbF0085e7811e9A8Ec",
   },
@@ -595,4 +595,4 @@ const ERC721BollyCoin = {
     }
   ],
 };
-export default ERC721BollyCoin;
+export default ERC721LetsCollect;

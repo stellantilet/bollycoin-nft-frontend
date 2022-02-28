@@ -10,7 +10,7 @@ import toast from "react-hot-toast";
 import { CgSpinner } from "react-icons/cg";
 import { BlockNetworkId, NetworkRPC } from "../../config/constants/common";
 import { NetworkId } from "../../config/constants/types";
-import ERC721BollyCoin from "../../config/contracts/ERC721BollyCoin";
+import ERC721LetsCollect from "../../config/contracts/ERC721LetsCollect";
 import { useOnboardContext } from "../../context/OnboardContext";
 
 const MintCard = ({
@@ -35,8 +35,8 @@ const MintCard = ({
     );
     const signer = provider.getSigner();
     const contract = new ethers.Contract(
-      ERC721BollyCoin.address[userState.network as NetworkId],
-      ERC721BollyCoin.abi,
+      ERC721LetsCollect.address[userState.network as NetworkId],
+      ERC721LetsCollect.abi,
       signer
     );
     const price = await contract.price(nftType);
@@ -65,8 +65,8 @@ const MintCard = ({
         NetworkRPC[BlockNetworkId as NetworkId] as string
       );
       const contract = new ethers.Contract(
-        ERC721BollyCoin.address[BlockNetworkId as NetworkId],
-        ERC721BollyCoin.abi,
+        ERC721LetsCollect.address[BlockNetworkId as NetworkId],
+        ERC721LetsCollect.abi,
         provider
       );
       const price = await contract.price(nftType);
