@@ -8,14 +8,19 @@ import {
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { CgSpinner } from "react-icons/cg";
-import { BlockNetworkId, NetworkRPC } from "../../config/constants/common";
+import {
+  BlockNetworkId,
+  NetworkRPC,
+  OpenSeasCollectionURL,
+} from "../../config/constants/common";
 import { NetworkId } from "../../config/constants/types";
 import ERC721LetsCollect from "../../config/contracts/ERC721LetsCollect";
 import { useOnboardContext } from "../../context/OnboardContext";
 
 const MintCard = ({
   nftType = "Platinum",
-  image = "assets/images/mint/ticket-1.png",
+  animation = "assets/images/mint/Plantinum.mp4",
+  image = "assets/images/mint/Plantinum.png",
   disabled = false,
 }) => {
   const [submitting, setSubmitting] = useState(false);
@@ -62,10 +67,10 @@ const MintCard = ({
   const loadData = async () => {
     try {
       const provider = new ethers.providers.JsonRpcProvider(
-        NetworkRPC[BlockNetworkId as NetworkId] as string
+        NetworkRPC[BlockNetworkId] as string
       );
       const contract = new ethers.Contract(
-        ERC721LetsCollect.address[BlockNetworkId as NetworkId],
+        ERC721LetsCollect.address[BlockNetworkId],
         ERC721LetsCollect.abi,
         provider
       );
@@ -90,7 +95,9 @@ const MintCard = ({
       <div className="blog-item">
         <div className="nft-inner">
           <div className="nft-thumb">
-            <img src={image} alt="blog-img" />
+            <video muted autoPlay className="w-100" poster={image}>
+              <source src={animation} type="video/mp4" />
+            </video>
           </div>
           <div className="nft-content">
             <div className="author-details">
@@ -113,18 +120,29 @@ const MintCard = ({
                     {price === 0 ? "__" : price} ETH
                   </span>
                 </p>
-                <button
-                  disabled={disabled || submitting}
-                  onClick={() => {
-                    handleMint(nftType);
-                  }}
-                  className="default-btn move-top"
-                >
-                  <span>
-                    {submitting && <CgSpinner className="spin" />}
-                    Mint
-                  </span>
-                </button>
+                {currentSupply === maxSupply && maxSupply !== 0 ? (
+                  <a
+                    className="default-btn move-top"
+                    href={OpenSeasCollectionURL[BlockNetworkId]}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span>Browse</span>
+                  </a>
+                ) : (
+                  <button
+                    disabled={disabled || submitting}
+                    onClick={() => {
+                      handleMint(nftType);
+                    }}
+                    className="default-btn move-top"
+                  >
+                    <span>
+                      {submitting && <CgSpinner className="spin" />}
+                      Mint
+                    </span>
+                  </button>
+                )}
               </div>
             </div>
           </div>
@@ -155,22 +173,26 @@ export const Mint = () => {
           <div className="blog-wrapper">
             <div className="row justify-content-center gx-4 gy-2">
               <MintCard
-                image="/assets/images/mint/ticket-1.png"
+                animation="/assets/images/mint/Plantinum.mp4"
+                image="/assets/images/mint/Plantinum.png"
                 nftType="Plantinum"
                 disabled={disabled}
               />
               <MintCard
-                image="/assets/images/mint/ticket-2.png"
+                animation="/assets/images/mint/Gold.mp4"
+                image="/assets/images/mint/Gold.png"
                 nftType="Gold"
                 disabled={disabled}
               />
               <MintCard
-                image="/assets/images/mint/ticket-3.png"
+                animation="/assets/images/mint/Silver.mp4"
+                image="/assets/images/mint/Silver.png"
                 nftType="Silver"
                 disabled={disabled}
               />
               <MintCard
-                image="/assets/images/mint/ticket-4.png"
+                animation="/assets/images/mint/Bronze.mp4"
+                image="/assets/images/mint/Bronze.png"
                 nftType="Bronze"
                 disabled={disabled}
               />

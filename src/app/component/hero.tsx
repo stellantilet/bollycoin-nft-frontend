@@ -1,5 +1,27 @@
 import React from "react";
 
+const SliderItem = ({ image }: { image: any }) => {
+  return (
+    <div className="swiper-slide">
+      <div className="nft-item home-3">
+        <div className="nft-inner">
+          <div className="nft-item-top d-flex justify-content-between align-items-center"></div>
+          <div className="nft-item-bottom">
+            <div className="nft-thumb text-center">
+              <img
+                loading="lazy"
+                src={image}
+                alt="nft-img"
+                className="img-responsive"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const Hero = () => {
   return (
     <section className="banner-section">
@@ -11,74 +33,10 @@ export const Hero = () => {
               <div className="nft-slider-wrapper">
                 <div className="banner-item-slider">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide">
-                      <div className="nft-item home-3">
-                        <div className="nft-inner">
-                          <div className="nft-item-top d-flex justify-content-between align-items-center"></div>
-                          <div className="nft-item-bottom">
-                            <div className="nft-thumb text-center">
-                              <img
-                                loading="lazy"
-                                src="assets/images/mint/ticket-1.png"
-                                alt="nft-img"
-                                className="img-responsive"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide">
-                      <div className="nft-item home-3">
-                        <div className="nft-inner">
-                          <div className="nft-item-top d-flex justify-content-between align-items-center"></div>
-                          <div className="nft-item-bottom">
-                            <div className="nft-thumb text-center">
-                              <img
-                                loading="lazy"
-                                src="assets/images/mint/ticket-2.png"
-                                alt="nft-img"
-                                className="img-responsive"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide">
-                      <div className="nft-item home-3">
-                        <div className="nft-inner">
-                          <div className="nft-item-top d-flex justify-content-between align-items-center"></div>
-                          <div className="nft-item-bottom">
-                            <div className="nft-thumb text-center">
-                              <img
-                                loading="lazy"
-                                src="assets/images/mint/ticket-3.png"
-                                alt="nft-img"
-                                className="img-responsive"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide">
-                      <div className="nft-item home-3">
-                        <div className="nft-inner">
-                          <div className="nft-item-top d-flex justify-content-between align-items-center"></div>
-                          <div className="nft-item-bottom">
-                            <div className="nft-thumb text-center">
-                              <img
-                                loading="lazy"
-                                src="assets/images/mint/ticket-4.png"
-                                alt="nft-img"
-                                className="img-responsive"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <SliderItem image="/assets/images/mint/Plantinum.png" />
+                    <SliderItem image="/assets/images/mint/Gold.png" />
+                    <SliderItem image="/assets/images/mint/Silver.png" />
+                    <SliderItem image="/assets/images/mint/Bronze.png" />
                   </div>
                 </div>
               </div>
