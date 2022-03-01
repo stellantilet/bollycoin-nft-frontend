@@ -1,5 +1,6 @@
 const ERC721LetsCollect = {
   address: {
+    1: "0x4073d289078cF607A2FF9473B73eEEA8bC536DfB",
     4: "0xDb0917b6E0a7fBbdba0a44dB68587Ac1153b2411",
     97: "0xba37cbA7075F329817ec0cb80A652f1e42Bb98e8",
   },
