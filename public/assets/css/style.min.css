@@ -8,8 +8,7 @@ Version: 1.0.0
 Text Domain: aNFT
 Tags: nft, digital assets, non-fungible, cryptocurrency, crypto, bitcoin, etherium,Enftomark,NFT market, NFT selling , NFT website.
 
-*/
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+*//*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 @import"https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
 
 html {
@@ -116,35 +115,35 @@ button,
     border: 0;
 }
 
-button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
-    border-style: none;
-    padding: 0
-}
+    button::-moz-focus-inner,
+    [type=button]::-moz-focus-inner,
+    [type=reset]::-moz-focus-inner,
+    [type=submit]::-moz-focus-inner {
+        border-style: none;
+        padding: 0
+    }
 
-button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
-    outline: 1px dotted ButtonText
-}
+    button:-moz-focusring,
+    [type=button]:-moz-focusring,
+    [type=reset]:-moz-focusring,
+    [type=submit]:-moz-focusring {
+        outline: 1px dotted ButtonText
+    }
 
-.default-btn:disabled {
-    cursor: not-allowed;
-    background-color: gray;
-}
-.default-btn:disabled:hover {
-    transform: inherit;
-    color: inherit;
-}
-
-.default-btn.move-top:disabled:before {
-    background-color: gray !important;
-}
-
-fieldset {
+    .default-btn:disabled {
+        cursor: not-allowed;
+        background-color: gray;
+    }
+    .default-btn:disabled:hover {
+        transform: inherit;
+        color: inherit;
+    }
+    
+    .default-btn.move-top:disabled:before {
+        background-color: gray !important;
+    }
+    
+    fieldset {
     padding: .35em .75em .625em
 }
 
@@ -181,9 +180,9 @@ textarea {
     outline-offset: -2px
 }
 
-[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
-}
+    [type=search]::-webkit-search-decoration {
+        -webkit-appearance: none
+    }
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
@@ -217,21 +216,21 @@ body {
     -webkit-font-smoothing: antialiased
 }
 
-body.home-2 {
-    background-color: #000d21
-}
+    body.home-2 {
+        background-color: #000d21
+    }
 
-body.home-3 {
-    background-color: #000
-}
+    body.home-3 {
+        background-color: #000
+    }
 
-body.home-4 {
-    background-color: #000
-}
+    body.home-4 {
+        background-color: #000
+    }
 
-body.home-light {
-    background-color: #fff
-}
+    body.home-light {
+        background-color: #fff
+    }
 
 h1,
 h2,
@@ -247,6 +246,10 @@ h6 {
 
 h1 {
     font-size: calc(1.5rem + 3vw)
+}
+
+.header__logo a {
+    font-size: 25px;
 }
 
 @media(min-width: 1200px) {
@@ -293,12 +296,12 @@ h6 {
     font-size: 1.125rem
 }
 
-a>h1,
-a>h2,
-a>h3,
-a>h4,
-a>h5,
-a>h6 {
+a > h1,
+a > h2,
+a > h3,
+a > h4,
+a > h5,
+a > h6 {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease
@@ -313,11 +316,11 @@ a {
     text-decoration: none
 }
 
-a:hover {
-    color: #5138ee;
-    text-decoration: none;
-    outline: none
-}
+    a:hover {
+        color: #5138ee;
+        text-decoration: none;
+        outline: none
+    }
 
 img {
     max-width: 100%;
@@ -364,221 +367,221 @@ ol {
     flex-wrap: wrap
 }
 
-.footer-link-item .footer-link-list .footer-link,
-.footer-top form,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span,
-.blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider,
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p,
-.error-section .section-wrapper .error-item .error-thumb,
-.or span,
-.or,
-.item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item,
-.item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title,
-.item-desc-part .item-desc-content .nav-tabs .nav-link,
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb,
-.media-wrapper .nav-tp-abs .nav-item .nav-link.active span,
-.media-wrapper .nav-tp-abs .nav-item .nav-link.active,
-.media-wrapper .nav-tp-abs .nav-item .nav-link span,
-.info-card .info-card-content .info-list li .info-name,
-.profile-details .profile-nav .nav-tabs .dropdown,
-.profile-details .profile-nav .nav-tabs .nav-link.active,
-.profile-details .profile-nav .nav-tabs .nav-link .item-number,
-.profile-section .member-profile .profile-item .profile-information .profile-pic,
-.profile-section .member-profile .profile-item .profile-cover,
-.live-icon,
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a,
-.drop-down-item,
-.header__nav-menu a,
-.header__nav-link[data-bs-toggle=dropdown],
-.header__nav-link,
-.header__nav,
-.header__content,
-.widget.widget-search .search-wrapper,
-.scrollToTop i,
-.paginations ul li a,
-.custom-upload,
-.seller-icon,
-.veryfied,
-.nft-item-bottom .nft-thumb,
-.nft-item,
-.section-header.style-4,
-.section-header.style-3,
-.section-header.style-2,
-.default-btn {
-    position: relative
-}
+    .footer-link-item .footer-link-list .footer-link,
+    .footer-top form,
+    .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span,
+    .blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
+    .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider,
+    .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p,
+    .error-section .section-wrapper .error-item .error-thumb,
+    .or span,
+    .or,
+    .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item,
+    .item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title,
+    .item-desc-part .item-desc-content .nav-tabs .nav-link,
+    .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb,
+    .media-wrapper .nav-tp-abs .nav-item .nav-link.active span,
+    .media-wrapper .nav-tp-abs .nav-item .nav-link.active,
+    .media-wrapper .nav-tp-abs .nav-item .nav-link span,
+    .info-card .info-card-content .info-list li .info-name,
+    .profile-details .profile-nav .nav-tabs .dropdown,
+    .profile-details .profile-nav .nav-tabs .nav-link.active,
+    .profile-details .profile-nav .nav-tabs .nav-link .item-number,
+    .profile-section .member-profile .profile-item .profile-information .profile-pic,
+    .profile-section .member-profile .profile-item .profile-cover,
+    .live-icon,
+    .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a,
+    .drop-down-item,
+    .header__nav-menu a,
+    .header__nav-link[data-bs-toggle=dropdown],
+    .header__nav-link,
+    .header__nav,
+    .header__content,
+    .widget.widget-search .search-wrapper,
+    .scrollToTop i,
+    .paginations ul li a,
+    .custom-upload,
+    .seller-icon,
+    .veryfied,
+    .nft-item-bottom .nft-thumb,
+    .nft-item,
+    .section-header.style-4,
+    .section-header.style-3,
+    .section-header.style-2,
+    .default-btn {
+        position: relative
+    }
 
-.footer-link-item .footer-link-list .footer-link:before,
-.footer-top form button,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span::after,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-prev,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-next,
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p::before,
-.or::before,
-.or::after,
-.item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item::before,
-.item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title:after,
-.item-desc-part .item-desc-content .nav-tabs .nav-link.active:after,
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb::after,
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb:before,
-.media-wrapper .nav-tp-abs .nav-item .nav-link.active span:before,
-.media-wrapper .nav-tp-abs .nav-item .nav-link span:before,
-.info-card .info-card-content .info-list li .info-name:after,
-.profile-section .member-profile .profile-item .profile-information .profile-pic .custom-upload,
-.profile-section .member-profile .profile-item .profile-cover .custom-upload,
-.live-icon svg,
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a::before,
-.drop-down-item.active::before,
-.drop-down-item:hover::before,
-.header__nav-link--active:before,
-.header__nav-link[data-bs-toggle=dropdown]:after,
-.header__nav-link:before,
-.header__search button,
-.header__search,
-.header__btn,
-.header,
-.widget.widget-search .search-wrapper button,
-.nft-search-input button,
-.preloader .preloader-inner .preloader-icon span,
-.preloader .preloader-inner,
-.custom-upload input[type=file],
-.seller-icon:after,
-.veryfied:after,
-.nft-item-bottom .nft-thumb .nft-countdown,
-.nft-item:after,
-.nft-item:before,
-.section-header.style-4 .header-shape::before,
-.section-header.style-4 .header-shape,
-.section-header.style-2 .header-shape::before,
-.section-header.style-2 .header-shape {
-    position: absolute;
-    content: ""
-}
+        .footer-link-item .footer-link-list .footer-link:before,
+        .footer-top form button,
+        .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span::after,
+        .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-prev,
+        .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-next,
+        .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p::before,
+        .or::before,
+        .or::after,
+        .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item::before,
+        .item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title:after,
+        .item-desc-part .item-desc-content .nav-tabs .nav-link.active:after,
+        .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb::after,
+        .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb:before,
+        .media-wrapper .nav-tp-abs .nav-item .nav-link.active span:before,
+        .media-wrapper .nav-tp-abs .nav-item .nav-link span:before,
+        .info-card .info-card-content .info-list li .info-name:after,
+        .profile-section .member-profile .profile-item .profile-information .profile-pic .custom-upload,
+        .profile-section .member-profile .profile-item .profile-cover .custom-upload,
+        .live-icon svg,
+        .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a::before,
+        .drop-down-item.active::before,
+        .drop-down-item:hover::before,
+        .header__nav-link--active:before,
+        .header__nav-link[data-bs-toggle=dropdown]:after,
+        .header__nav-link:before,
+        .header__search button,
+        .header__search,
+        .header__btn,
+        .header,
+        .widget.widget-search .search-wrapper button,
+        .nft-search-input button,
+        .preloader .preloader-inner .preloader-icon span,
+        .preloader .preloader-inner,
+        .custom-upload input[type=file],
+        .seller-icon:after,
+        .veryfied:after,
+        .nft-item-bottom .nft-thumb .nft-countdown,
+        .nft-item:after,
+        .nft-item:before,
+        .section-header.style-4 .header-shape::before,
+        .section-header.style-4 .header-shape,
+        .section-header.style-2 .header-shape::before,
+        .section-header.style-2 .header-shape {
+            position: absolute;
+            content: ""
+        }
 
-.footer-section,
-.comments .comment-list .comment .com-content,
-.comments .comment-list .comment .com-image,
-.comments .comment-list .comment,
-.blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
-.blog-section .post-item-inner .post-thumb,
-.media-wrapper .tab-content .tab-pane .media-content .media-thumb,
-.profile-section .member-profile .profile-item .profile-information .profile-pic,
-.profile-section .member-profile .profile-item .profile-cover,
-.banner-section,
-.hot-section .hot-holder,
-.auction-section .auction-holder,
-.page-header-section.style-1,
-.widget.letest-product .widget-wrapper ul li .product-thumb,
-.widget.recipe-categori,
-.widget.widget-instagram ul.widget-wrapper li a,
-.widget .widget-header,
-.profile-widget .widget-title,
-.preloader,
-.custom-upload,
-.nft-item.cat-item .nft-cat-thumb,
-.default-btn,
-.nft-item .nft-item-top .author-part .author-list .single-author:nth-child(3) h6 a,
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content h3 a,
-.blog-section .post-item-inner .post-content h4>a,
-.widget.widget-post ul.widget-wrapper li .post-content a h6,
-.nft-item.blog-item .nft-content h4 a {
-    overflow: hidden
-}
+        .footer-section,
+        .comments .comment-list .comment .com-content,
+        .comments .comment-list .comment .com-image,
+        .comments .comment-list .comment,
+        .blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
+        .blog-section .post-item-inner .post-thumb,
+        .media-wrapper .tab-content .tab-pane .media-content .media-thumb,
+        .profile-section .member-profile .profile-item .profile-information .profile-pic,
+        .profile-section .member-profile .profile-item .profile-cover,
+        .banner-section,
+        .hot-section .hot-holder,
+        .auction-section .auction-holder,
+        .page-header-section.style-1,
+        .widget.letest-product .widget-wrapper ul li .product-thumb,
+        .widget.recipe-categori,
+        .widget.widget-instagram ul.widget-wrapper li a,
+        .widget .widget-header,
+        .profile-widget .widget-title,
+        .preloader,
+        .custom-upload,
+        .nft-item.cat-item .nft-cat-thumb,
+        .default-btn,
+        .nft-item .nft-item-top .author-part .author-list .single-author:nth-child(3) h6 a,
+        .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content h3 a,
+        .blog-section .post-item-inner .post-content h4 > a,
+        .widget.widget-post ul.widget-wrapper li .post-content a h6,
+        .nft-item.blog-item .nft-content h4 a {
+            overflow: hidden
+        }
 
-.comment-respond .add-comment .comment-form .default-btn,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-prev,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-next,
-.account-form .form-group .checkgroup label,
-.account-form .form-group .checkgroup input[type=checkbox],
-.account-form .form-group .checkgroup,
-.create-nft .item-category-field .item-cat-list .item-cat-btn,
-.widget.widget-search .search-wrapper button,
-.custom-upload input[type=file],
-.custom-upload .file-btn,
-.custom-upload {
-    cursor: pointer
-}
+            .comment-respond .add-comment .comment-form .default-btn,
+            .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-prev,
+            .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-next,
+            .account-form .form-group .checkgroup label,
+            .account-form .form-group .checkgroup input[type=checkbox],
+            .account-form .form-group .checkgroup,
+            .create-nft .item-category-field .item-cat-list .item-cat-btn,
+            .widget.widget-search .search-wrapper button,
+            .custom-upload input[type=file],
+            .custom-upload .file-btn,
+            .custom-upload {
+                cursor: pointer
+            }
 
-.footer-top form input,
-.blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive iframe,
-.blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-thumb img,
-.blog-section .post-item-inner .post-thumb a img,
-.or::before,
-.or::after,
-.account-form .form-group button,
-.account-form .form-group input,
-.crypto-page,
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb img,
-.profile-section .member-profile .profile-item .profile-information .profile-pic img,
-.profile-section .member-profile .profile-item .profile-cover img,
-.explore-section .section-header .nft-filter .form-floating,
-.explore-section .section-header .nft-filter h3,
-.explore-section .section-header .nft-filter,
-.assets-section .nft-item,
-.seller-section .seller-item,
-.header__nav,
-.header__search,
-.header__content,
-.widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu,
-.widget.shop-widget .widget-wrapper .shop-menu li a,
-.widget.widget-post ul.widget-wrapper li .post-thumb a img,
-.preloader,
-.nft-item-bottom .nft-thumb img,
-.nft-item.style-2 .nft-thumb img,
-.section-header.style-4 .header-shape,
-.section-header.style-2 .header-shape {
-    width: 100%
-}
+            .footer-top form input,
+            .blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive iframe,
+            .blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
+            .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-thumb img,
+            .blog-section .post-item-inner .post-thumb a img,
+            .or::before,
+            .or::after,
+            .account-form .form-group button,
+            .account-form .form-group input,
+            .crypto-page,
+            .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb img,
+            .profile-section .member-profile .profile-item .profile-information .profile-pic img,
+            .profile-section .member-profile .profile-item .profile-cover img,
+            .explore-section .section-header .nft-filter .form-floating,
+            .explore-section .section-header .nft-filter h3,
+            .explore-section .section-header .nft-filter,
+            .assets-section .nft-item,
+            .seller-section .seller-item,
+            .header__nav,
+            .header__search,
+            .header__content,
+            .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu,
+            .widget.shop-widget .widget-wrapper .shop-menu li a,
+            .widget.widget-post ul.widget-wrapper li .post-thumb a img,
+            .preloader,
+            .nft-item-bottom .nft-thumb img,
+            .nft-item.style-2 .nft-thumb img,
+            .section-header.style-4 .header-shape,
+            .section-header.style-2 .header-shape {
+                width: 100%
+            }
 
-.or::before,
-.or::after,
-.profile-section .member-profile .profile-item .profile-information .profile-pic img,
-.header__actions,
-.header__logo,
-.widget.widget-post ul.widget-wrapper li .post-thumb a,
-.preloader {
-    height: 100%
-}
+            .or::before,
+            .or::after,
+            .profile-section .member-profile .profile-item .profile-information .profile-pic img,
+            .header__actions,
+            .header__logo,
+            .widget.widget-post ul.widget-wrapper li .post-thumb a,
+            .preloader {
+                height: 100%
+            }
 
-.footer-top form button,
-.footer-top form input,
-.comments .comment-list .comment .com-content .com-title .reply a,
-.blog-section .main-blog .blog-wrapper .post-item.code-post .post-item-inner .post-thumb .code-content p,
-.coming-wrapper .event-count .rounded-circle span,
-.item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item p a,
-.assets-section .section-header .header-content .asset-filter-list .asset-filter-btn,
-.view-all-btn,
-.page-header-section.style-1 .page-header-content .page-header-inner .page-title .title-text,
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a {
-    font-weight: 700
-}
+            .footer-top form button,
+            .footer-top form input,
+            .comments .comment-list .comment .com-content .com-title .reply a,
+            .blog-section .main-blog .blog-wrapper .post-item.code-post .post-item-inner .post-thumb .code-content p,
+            .coming-wrapper .event-count .rounded-circle span,
+            .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item p a,
+            .assets-section .section-header .header-content .asset-filter-list .asset-filter-btn,
+            .view-all-btn,
+            .page-header-section.style-1 .page-header-content .page-header-inner .page-title .title-text,
+            .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a {
+                font-weight: 700
+            }
 
-.blog-section .post-item-inner .blog-footer .blog-comment,
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li.active {
-    font-weight: 400
-}
+            .blog-section .post-item-inner .blog-footer .blog-comment,
+            .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li.active {
+                font-weight: 400
+            }
 
-.explore-section .section-header,
-.seller-section .seller-wrapper,
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb,
-.header__search button,
-.widget.widget-tags ul.widget-wrapper,
-.paginations ul li a,
-.nft-item-bottom .nft-thumb .nft-countdown {
-    justify-content: center
-}
+            .explore-section .section-header,
+            .seller-section .seller-wrapper,
+            .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb,
+            .header__search button,
+            .widget.widget-tags ul.widget-wrapper,
+            .paginations ul li a,
+            .nft-item-bottom .nft-thumb .nft-countdown {
+                justify-content: center
+            }
 
-.comments .comment-list .comment .com-content .com-title,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section,
-.blog-section .post-item-inner .blog-footer,
-.crypto-page,
-.header__content,
-.seller-item .seller-inner,
-.section-header {
-    justify-content: space-between
-}
+            .comments .comment-list .comment .com-content .com-title,
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section,
+            .blog-section .post-item-inner .blog-footer,
+            .crypto-page,
+            .header__content,
+            .seller-item .seller-inner,
+            .section-header {
+                justify-content: space-between
+            }
 
 .header__nav-menu a,
 .header__nav-link,
@@ -637,26 +640,26 @@ ol {
     display: block
 }
 
-.comments .comment-list .comment .com-content .com-title .com-title-meta span,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li a,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span i,
-.account-bottom .social-media li a,
-.item-desc-part .item-desc-content .bids-tab span,
-.view-all-btn span,
-.header__action--profile .dropdown-toggle span:nth-of-type(1),
-.header.home-4 .dropdown-toggle span:nth-of-type(1),
-.preloader .preloader-inner .preloader-icon span,
-.preloader .preloader-inner .preloader-icon,
-.custom-upload,
-.nft-item.style-2 .nft-content .author-thumb,
-.nft-item .nft-item-top .more-part .dropstart>a i,
-.section-header.style-4 h3,
-.section-header.style-3 h3,
-.section-header.style-2 h3,
-.default-btn {
-    display: inline-block
-}
+    .comments .comment-list .comment .com-content .com-title .com-title-meta span,
+    .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a,
+    .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li a,
+    .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span i,
+    .account-bottom .social-media li a,
+    .item-desc-part .item-desc-content .bids-tab span,
+    .view-all-btn span,
+    .header__action--profile .dropdown-toggle span:nth-of-type(1),
+    .header.home-4 .dropdown-toggle span:nth-of-type(1),
+    .preloader .preloader-inner .preloader-icon span,
+    .preloader .preloader-inner .preloader-icon,
+    .custom-upload,
+    .nft-item.style-2 .nft-content .author-thumb,
+    .nft-item .nft-item-top .more-part .dropstart > a i,
+    .section-header.style-4 h3,
+    .section-header.style-3 h3,
+    .section-header.style-2 h3,
+    .default-btn {
+        display: inline-block
+    }
 
 .media-wrapper .tab-content .tab-pane .media-content .media-upload .upload-now .custom-upload,
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active span,
@@ -672,7 +675,7 @@ ol {
 }
 
 .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content h3 a,
-.blog-section .post-item-inner .post-content h4>a,
+.blog-section .post-item-inner .post-content h4 > a,
 .widget.widget-post ul.widget-wrapper li .post-content a h6,
 .nft-item.blog-item .nft-content h4 a {
     display: -webkit-box;
@@ -715,54 +718,54 @@ ol {
     background: #5138ee
 }
 
-.contact-info-wrapper,
-.contact-form-wrapper,
-.comment-respond,
-.comments,
-.blog-section .post-item-inner .blog-footer,
-.blog-section .post-item-inner .post-content,
-.error-section .section-wrapper .error-item,
-.account-wrapper,
-.media-wrapper .tab-content .tab-pane,
-.media-wrapper .nav-tp-abs .nav-item .nav-link.active span,
-.media-wrapper .nav-tp-abs,
-.info-card,
-.profile-details .tab-content .activity-page .activity-tab .nav,
-.profile-details .profile-nav,
-.profile-widget,
-.paginations ul li a,
-.activity-item .lab-inner {
-    background: #1a203c
-}
+    .contact-info-wrapper,
+    .contact-form-wrapper,
+    .comment-respond,
+    .comments,
+    .blog-section .post-item-inner .blog-footer,
+    .blog-section .post-item-inner .post-content,
+    .error-section .section-wrapper .error-item,
+    .account-wrapper,
+    .media-wrapper .tab-content .tab-pane,
+    .media-wrapper .nav-tp-abs .nav-item .nav-link.active span,
+    .media-wrapper .nav-tp-abs,
+    .info-card,
+    .profile-details .tab-content .activity-page .activity-tab .nav,
+    .profile-details .profile-nav,
+    .profile-widget,
+    .paginations ul li a,
+    .activity-item .lab-inner {
+        background: #1a203c
+    }
 
-.footer-top .social-list .social-link a,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a,
-.blog-section .main-blog .blog-wrapper .post-item.code-post .post-item-inner .post-thumb .code-content,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-prev,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-next,
-.error-section .section-wrapper .error-item,
-.account-bottom .social-media li a,
-.account-wrapper,
-.item-details-countdown .item-countdown-list li,
-.item-desc-part .item-desc-content .bids-tab,
-.load-btn,
-.create-nft .upload-item,
-.profile-section .member-profile .profile-item .profile-information .profile-contact li a .icon,
-.profile-section .member-profile .profile-item .profile-information .profile-name,
-.explore-section .section-header .nft-filter h3,
-.hot-section .section-header .header-content .hot-nav .hot-prev,
-.hot-section .section-header .header-content .hot-nav .hot-next,
-.auction-section .section-header .header-content .auction-nav .auction-prev,
-.auction-section .section-header .header-content .auction-nav .auction-next,
-.page-header-section.style-1,
-.header__action--profile .dropdown-toggle span:nth-of-type(1),
-.header.home-4 .dropdown-toggle span:nth-of-type(1),
-.scrollToTop,
-.section-header.style-4,
-.section-header.style-3,
-.section-header.style-2 {
-    text-align: center
-}
+    .footer-top .social-list .social-link a,
+    .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a,
+    .blog-section .main-blog .blog-wrapper .post-item.code-post .post-item-inner .post-thumb .code-content,
+    .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-prev,
+    .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider .blog-slider-next,
+    .error-section .section-wrapper .error-item,
+    .account-bottom .social-media li a,
+    .account-wrapper,
+    .item-details-countdown .item-countdown-list li,
+    .item-desc-part .item-desc-content .bids-tab,
+    .load-btn,
+    .create-nft .upload-item,
+    .profile-section .member-profile .profile-item .profile-information .profile-contact li a .icon,
+    .profile-section .member-profile .profile-item .profile-information .profile-name,
+    .explore-section .section-header .nft-filter h3,
+    .hot-section .section-header .header-content .hot-nav .hot-prev,
+    .hot-section .section-header .header-content .hot-nav .hot-next,
+    .auction-section .section-header .header-content .auction-nav .auction-prev,
+    .auction-section .section-header .header-content .auction-nav .auction-next,
+    .page-header-section.style-1,
+    .header__action--profile .dropdown-toggle span:nth-of-type(1),
+    .header.home-4 .dropdown-toggle span:nth-of-type(1),
+    .scrollToTop,
+    .section-header.style-4,
+    .section-header.style-3,
+    .section-header.style-2 {
+        text-align: center
+    }
 
 .comments .comment-list .comment,
 .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li {
@@ -848,7 +851,7 @@ ol {
 .wallet-item .wallet-thumb,
 .nft-item.blog-item .nft-content h4,
 .nft-item.style-3 .nft-content h4,
-.nft-item .nft-item-top .more-part .dropstart>a {
+.nft-item .nft-item-top .more-part .dropstart > a {
     margin-bottom: 15px
 }
 
@@ -859,7 +862,7 @@ ol {
 .account-wrapper .title,
 .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item,
 .item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info,
-.item-desc-part .item-desc-content .details-tab>p,
+.item-desc-part .item-desc-content .details-tab > p,
 .h4-title,
 .banner-content h1,
 .seller-section .seller-item,
@@ -892,15 +895,15 @@ ol {
     margin-bottom: 30px
 }
 
-.item-price,
-.item-details-countdown,
-.item-desc-part .item-desc-thumb,
-.assets-section .nft-item,
-.section-header.style-4,
-.section-header.style-3,
-.section-header.style-2 {
-    margin-bottom: 40px
-}
+    .item-price,
+    .item-details-countdown,
+    .item-desc-part .item-desc-thumb,
+    .assets-section .nft-item,
+    .section-header.style-4,
+    .section-header.style-3,
+    .section-header.style-2 {
+        margin-bottom: 40px
+    }
 
 .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list {
     margin-top: 0
@@ -1063,9 +1066,9 @@ ol {
     padding-left: 14px
 }
 
-.item-desc-part .item-desc-content .history-tab .item-histo-list {
-    padding-left: 20px
-}
+    .item-desc-part .item-desc-content .history-tab .item-histo-list {
+        padding-left: 20px
+    }
 
 .footer-link-item .footer-link-list .footer-link {
     padding-left: 25px
@@ -1289,9 +1292,9 @@ ol {
     gap: 10px
 }
 
-.section-header .header-title h3 {
-    text-transform: uppercase
-}
+    .section-header .header-title h3 {
+        text-transform: uppercase
+    }
 
 .section-header.style-2 {
     border: none;
@@ -1302,12 +1305,13 @@ ol {
     display: inherit
 }
 
-.section-header.style-2 h3 {
-    position: inherit;
-    background-color: #000d21;
-    padding-inline: 1rem;
-    text-transform: uppercase
-}
+    .section-header.style-2 h3 {
+        position: inherit;
+        z-index: 1;
+        background-color: #000d21;
+        padding-inline: 1rem;
+        text-transform: uppercase
+    }
 
 @media(min-width: 768px) {
     .section-header.style-2 h3 {
@@ -1327,22 +1331,22 @@ ol {
     transform: translateY(-50%)
 }
 
-.section-header.style-2 .header-shape span {
-    background-color: rgba(255, 255, 255, .1);
-    height: 1px;
-    display: block
-}
+    .section-header.style-2 .header-shape span {
+        background-color: rgba(255, 255, 255, .1);
+        height: 1px;
+        display: block
+    }
 
-.section-header.style-2 .header-shape::before {
-    content: "";
-    width: 100%;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 11px;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid rgba(255, 255, 255, .1)
-}
+    .section-header.style-2 .header-shape::before {
+        content: "";
+        width: 100%;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 11px;
+        border-top: 1px solid rgba(255, 255, 255, .1);
+        border-bottom: 1px solid rgba(255, 255, 255, .1)
+    }
 
 .section-header.style-3 {
     border: none;
@@ -1353,13 +1357,13 @@ ol {
     display: inherit
 }
 
-.section-header.style-3 h3 {
-    position: inherit;
-    z-index: 1;
-    padding-inline: 1rem;
-    text-transform: uppercase;
-    color: #5138ee
-}
+    .section-header.style-3 h3 {
+        position: inherit;
+        z-index: 1;
+        padding-inline: 1rem;
+        text-transform: uppercase;
+        color: #5138ee
+    }
 
 @media(min-width: 768px) {
     .section-header.style-3 h3 {
@@ -1382,13 +1386,13 @@ ol {
     display: inherit
 }
 
-.section-header.style-4 h3 {
-    position: inherit;
-    z-index: 1;
-    background-color: #000;
-    padding-inline: 1rem;
-    text-transform: uppercase
-}
+    .section-header.style-4 h3 {
+        position: inherit;
+        z-index: 1;
+        background-color: #000;
+        padding-inline: 1rem;
+        text-transform: uppercase
+    }
 
 @media(min-width: 768px) {
     .section-header.style-4 h3 {
@@ -1408,24 +1412,24 @@ ol {
     transform: translateY(-50%)
 }
 
-.section-header.style-4 .header-shape span {
-    background: #fff;
-    height: 1px;
-    display: block
-}
+    .section-header.style-4 .header-shape span {
+        background: #fff;
+        height: 1px;
+        display: block
+    }
 
-.section-header.style-4 .header-shape::before {
-    content: "";
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 11px;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    border-image: linear-gradient(125deg, #FFE53B 0%, #FF2525 37%, #fd00ff 100%);
-    border-image-slice: 1
-}
+    .section-header.style-4 .header-shape::before {
+        content: "";
+        width: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 11px;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        border-image: linear-gradient(125deg, #FFE53B 0%, #FF2525 37%, #fd00ff 100%);
+        border-image-slice: 1
+    }
 
 .nft-item.home-3 {
     transition: all .3s ease;
@@ -1435,6 +1439,30 @@ ol {
 div#slide-img .nft-item.home-3 .nft-thumb img {
     height: 250px;
     width: auto
+}
+
+
+@media(min-width: 1451px) {
+    .nft-item.home-3 {
+        height: 750px;
+    }
+
+    div#slide-img .nft-item.home-3 .nft-thumb img {
+        height: 350px;
+        width: auto;
+        margin-top: 70px;
+    }
+}
+
+@media(min-width: 1200px)and (max-width: 1450px) {
+    .nft-item.home-3 {
+        height: 500px;
+    }
+
+    div#slide-img .nft-item.home-3 .nft-thumb img {
+        height: 250px;
+        width: auto
+    }
 }
 
 
@@ -1458,7 +1486,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     div#slide-img .nft-item.home-3 .nft-thumb img {
         height: 180px;
         width: auto
-    }
+    }  
 }
 
 
@@ -1470,7 +1498,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     div#slide-img .nft-item.home-3 .nft-thumb img {
         height: 130px;
         width: auto
-    }
+    }   
 }
 
 
@@ -1482,176 +1510,176 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     div#slide-img .nft-item.home-3 .nft-thumb img {
         height: 100px;
         width: auto
+    }   
+}
+
+
+
+
+    .nft-item:before {
+        width: 90%;
+        height: 90%;
+        border: 1px solid rgba(255, 255, 255, .04);
+        box-shadow: 0 0 10px rgba(3, 0, 16, .2);
+        bottom: -12px;
+        left: 50%;
+        z-index: -1;
+        transform: translateX(-50%);
+        transition: all .3s ease;
+        border-radius: 3px;
+        background: #171c35
     }
-}
 
+    .nft-item:after {
+        width: 80%;
+        height: 80%;
+        border: 1px solid rgba(255, 255, 255, .04);
+        box-shadow: 0 0 10px rgba(3, 0, 16, .2);
+        bottom: -22px;
+        left: 50%;
+        z-index: -2;
+        transform: translateX(-50%);
+        transition: all .3s ease;
+        border-radius: 3px;
+        background: #151a31
+    }
 
+    .nft-item .nft-inner {
+        padding: 20px;
+        background: #1a203c;
+        box-shadow: 0 0 10px rgba(3, 0, 16, .2);
+        border-radius: 5px;
+        border: 1px solid transparent
+    }
 
+    .nft-item .nft-item-top .author-part .author-list .single-author {
+        gap: 10px
+    }
 
-.nft-item:before {
-    width: 90%;
-    height: 90%;
-    border: 1px solid rgba(255, 255, 255, .04);
-    box-shadow: 0 0 10px rgba(3, 0, 16, .2);
-    bottom: -12px;
-    left: 50%;
-    z-index: -1;
-    transform: translateX(-50%);
-    transition: all .3s ease;
-    border-radius: 3px;
-    background: #171c35
-}
+        .nft-item .nft-item-top .author-part .author-list .single-author a img {
+            border: 2px solid #030010;
+            border-radius: 50%;
+            max-width: 44px;
+            object-fit: cover
+        }
 
-.nft-item:after {
-    width: 80%;
-    height: 80%;
-    border: 1px solid rgba(255, 255, 255, .04);
-    box-shadow: 0 0 10px rgba(3, 0, 16, .2);
-    bottom: -22px;
-    left: 50%;
-    z-index: -2;
-    transform: translateX(-50%);
-    transition: all .3s ease;
-    border-radius: 3px;
-    background: #151a31
-}
+        .nft-item .nft-item-top .author-part .author-list .single-author:nth-child(2) {
+            transform: translateX(-12px)
+        }
 
-.nft-item .nft-inner {
-    padding: 20px;
-    background: #1a203c;
-    box-shadow: 0 0 10px rgba(3, 0, 16, .2);
-    border-radius: 5px;
-    border: 1px solid transparent
-}
+        .nft-item .nft-item-top .author-part .author-list .single-author:nth-child(3) {
+            transform: translateX(-25px)
+        }
 
-.nft-item .nft-item-top .author-part .author-list .single-author {
-    gap: 10px
-}
+    .nft-item .nft-item-top .more-part .dropstart > a i {
+        font-size: 18px;
+        transition: all .1s ease
+    }
 
-.nft-item .nft-item-top .author-part .author-list .single-author a img {
-    border: 2px solid #030010;
-    border-radius: 50%;
-    max-width: 44px;
-    object-fit: cover
-}
+    .nft-item .nft-item-top .more-part .dropstart > a:before {
+        display: none
+    }
 
-.nft-item .nft-item-top .author-part .author-list .single-author:nth-child(2) {
-    transform: translateX(-12px)
-}
+    .nft-item .nft-item-top .more-part .dropstart > a:focus-visible {
+        outline: none
+    }
 
-.nft-item .nft-item-top .author-part .author-list .single-author:nth-child(3) {
-    transform: translateX(-25px)
-}
+    .nft-item .nft-item-top .more-part .dropstart > a.show i {
+        transform: rotate(-90deg);
+        color: #5138ee
+    }
 
-.nft-item .nft-item-top .more-part .dropstart>a i {
-    font-size: 18px;
-    transition: all .1s ease
-}
+    .nft-item .nft-item-top .more-part .dropstart .dropdown-menu {
+        min-width: 8rem;
+        background: #030010;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, .4)
+    }
 
-.nft-item .nft-item-top .more-part .dropstart>a:before {
-    display: none
-}
+        .nft-item .nft-item-top .more-part .dropstart .dropdown-menu li {
+            border-bottom: 1px solid rgba(255, 255, 255, .4)
+        }
 
-.nft-item .nft-item-top .more-part .dropstart>a:focus-visible {
-    outline: none
-}
+            .nft-item .nft-item-top .more-part .dropstart .dropdown-menu li:last-child {
+                border-bottom: none
+            }
 
-.nft-item .nft-item-top .more-part .dropstart>a.show i {
-    transform: rotate(-90deg);
-    color: #5138ee
-}
+            .nft-item .nft-item-top .more-part .dropstart .dropdown-menu li .dropdown-item {
+                color: #fff
+            }
 
-.nft-item .nft-item-top .more-part .dropstart .dropdown-menu {
-    min-width: 8rem;
-    background: #030010;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, .4)
-}
+                .nft-item .nft-item-top .more-part .dropstart .dropdown-menu li .dropdown-item:hover {
+                    background: transparent;
+                    color: #5138ee
+                }
 
-.nft-item .nft-item-top .more-part .dropstart .dropdown-menu li {
-    border-bottom: 1px solid rgba(255, 255, 255, .4)
-}
+    .nft-item.style-2 .nft-content .author-thumb {
+        transform: translate(20px, -50%)
+    }
 
-.nft-item .nft-item-top .more-part .dropstart .dropdown-menu li:last-child {
-    border-bottom: none
-}
+        .nft-item.style-2 .nft-content .author-thumb img {
+            border-radius: 50%;
+            border: 2px solid #030010;
+            max-width: 65px
+        }
 
-.nft-item .nft-item-top .more-part .dropstart .dropdown-menu li .dropdown-item {
-    color: #fff
-}
+        .nft-item.style-2 .nft-content .author-thumb .veryfied:after {
+            width: 18px;
+            height: 18px;
+            font-size: 15px
+        }
 
-.nft-item .nft-item-top .more-part .dropstart .dropdown-menu li .dropdown-item:hover {
-    background: transparent;
-    color: #5138ee
-}
+    .nft-item.style-2 .nft-content .author-details {
+        margin-top: -20px
+    }
 
-.nft-item.style-2 .nft-content .author-thumb {
-    transform: translate(20px, -50%)
-}
+        .nft-item.style-2 .nft-content .author-details p {
+            font-size: 1.125rem;
+            font-family: "Barlow", sans-serif
+        }
 
-.nft-item.style-2 .nft-content .author-thumb img {
-    border-radius: 50%;
-    border: 2px solid #030010;
-    max-width: 65px
-}
+    .nft-item.style-3 .nft-inner {
+        padding-inline: 20px;
+        padding-top: 40px;
+        padding-bottom: 35px
+    }
 
-.nft-item.style-2 .nft-content .author-thumb .veryfied:after {
-    width: 18px;
-    height: 18px;
-    font-size: 15px
-}
+    .nft-item.home-4:after,
+    .nft-item.home-4:before {
+        display: none
+    }
 
-.nft-item.style-2 .nft-content .author-details {
-    margin-top: -20px
-}
+    .nft-item.home-4 .nft-inner {
+        background-color: #000;
+        border: 2px solid transparent;
+        border-image: linear-gradient(125deg, #FFE53B 0%, #FF2525 37%, #fd00ff 100%);
+        border-image-slice: 1
+    }
 
-.nft-item.style-2 .nft-content .author-details p {
-    font-size: 1.125rem;
-    font-family: "Barlow", sans-serif
-}
+    .nft-item.home-4 .nft-content h4 a:hover,
+    .nft-item.home-4 .nft-content h6 a:hover {
+        color: #f3a735
+    }
 
-.nft-item.style-3 .nft-inner {
-    padding-inline: 20px;
-    padding-top: 40px;
-    padding-bottom: 35px
-}
+    .nft-item.home-4 .single-author h6 a:hover {
+        color: #f3a735
+    }
 
-.nft-item.home-4:after,
-.nft-item.home-4:before {
-    display: none
-}
+    .nft-item.home-4 .more-part .dropdown-toggle.show i,
+    .nft-item.home-4 .more-part .dropdown-toggle:hover i {
+        color: #f3a735
+    }
 
-.nft-item.home-4 .nft-inner {
-    background-color: #000;
-    border: 2px solid transparent;
-    border-image: linear-gradient(125deg, #FFE53B 0%, #FF2525 37%, #fd00ff 100%);
-    border-image-slice: 1
-}
+    .nft-item.home-4 .nft-countdown {
+        background-color: #51ff00
+    }
 
-.nft-item.home-4 .nft-content h4 a:hover,
-.nft-item.home-4 .nft-content h6 a:hover {
-    color: #f3a735
-}
+    .nft-item.blog-item .nft-content {
+        padding: 0 10px 10px
+    }
 
-.nft-item.home-4 .single-author h6 a:hover {
-    color: #f3a735
-}
-
-.nft-item.home-4 .more-part .dropdown-toggle.show i,
-.nft-item.home-4 .more-part .dropdown-toggle:hover i {
-    color: #f3a735
-}
-
-.nft-item.home-4 .nft-countdown {
-    background-color: #51ff00
-}
-
-.nft-item.blog-item .nft-content {
-    padding: 0 10px 10px
-}
-
-.nft-item.blog-item .nft-content .meta-info {
-    gap: 20px
-}
+        .nft-item.blog-item .nft-content .meta-info {
+            gap: 20px
+        }
 
 @media(min-width: 576px)and (max-width: 767px) {
     .nft-item.blog-item .nft-content .meta-info {
@@ -1663,9 +1691,9 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     font-size: 14px
 }
 
-.nft-item.blog-item .nft-content .meta-info p i {
-    color: #5138ee
-}
+    .nft-item.blog-item .nft-content .meta-info p i {
+        color: #5138ee
+    }
 
 .nft-item.blog-item.home-2 .nft-content .meta-info date i,
 .nft-item.blog-item.home-2 .nft-content .meta-info p i {
@@ -1676,9 +1704,9 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     cursor: w-resize
 }
 
-.nft-item.cat-item .nft-cat-thumb .single-thumb img {
-    border-radius: 4px
-}
+    .nft-item.cat-item .nft-cat-thumb .single-thumb img {
+        border-radius: 4px
+    }
 
 .nft-item.home-2 a:hover {
     color: #51ff00
@@ -1696,11 +1724,11 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     box-shadow: 0 0 10px rgba(3, 0, 16, .2)
 }
 
-.nft-item.home-2 .nft-inner .nft-thumb .nft-countdown {
-    background: #51ff00;
-    color: #000;
-    border-radius: 2px
-}
+    .nft-item.home-2 .nft-inner .nft-thumb .nft-countdown {
+        background: #51ff00;
+        color: #000;
+        border-radius: 2px
+    }
 
 .nft-item.home-3:after,
 .nft-item.home-3:before {
@@ -1720,9 +1748,9 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     transform: none
 }
 
-.nft-item.home-3:hover .nft-inner {
-    border: 1px solid rgba(255, 255, 255, .15)
-}
+    .nft-item.home-3:hover .nft-inner {
+        border: 1px solid rgba(255, 255, 255, .15)
+    }
 
 .nft-item.home-light:after,
 .nft-item.home-light:before {
@@ -1739,17 +1767,17 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     color: #000
 }
 
-.nft-item.home-light .nft-content h4 a:hover {
-    color: #5138ee
-}
+    .nft-item.home-light .nft-content h4 a:hover {
+        color: #5138ee
+    }
 
 .nft-item.home-light .author-part h6 a {
     color: #000
 }
 
-.nft-item.home-light .author-part h6 a:hover {
-    color: #5138ee
-}
+    .nft-item.home-light .author-part h6 a:hover {
+        color: #5138ee
+    }
 
 .nft-item.home-light .author-part h6 .nft-thumb img {
     border-radius: 10px
@@ -1772,9 +1800,9 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     color: #555
 }
 
-.nft-item.home-light .price-like a:hover {
-    color: #5138ee
-}
+    .nft-item.home-light .price-like a:hover {
+        color: #5138ee
+    }
 
 .nft-item.home-light .author-number h3 {
     color: #000
@@ -1784,9 +1812,9 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     color: #000
 }
 
-.nft-item.home-light .author-det-info h5 a:hover {
-    color: #5138ee
-}
+    .nft-item.home-light .author-det-info h5 a:hover {
+        color: #5138ee
+    }
 
 .nft-item.home-light .author-det-info .yellow-color {
     color: #5138ee
@@ -1806,22 +1834,22 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     box-shadow: none
 }
 
-.nft-item.home-light:hover .nft-inner {
-    border: 1px solid rgba(0, 0, 0, .2);
-    box-shadow: none
-}
+    .nft-item.home-light:hover .nft-inner {
+        border: 1px solid rgba(0, 0, 0, .2);
+        box-shadow: none
+    }
 
 .nft-item:hover {
     transform: translateY(10px);
     box-shadow: 0 3px 20px rgba(0, 0, 0, .4)
 }
 
-.nft-item:hover:after,
-.nft-item:hover:before {
-    opacity: 0;
-    bottom: 0;
-    visibility: hidden
-}
+    .nft-item:hover:after,
+    .nft-item:hover:before {
+        opacity: 0;
+        bottom: 0;
+        visibility: hidden
+    }
 
 .nft-item-bottom .nft-thumb .nft-countdown {
     width: 92%;
@@ -1855,15 +1883,15 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     padding-inline: 10px
 }
 
-.nft-item-bottom .nft-content .nft-price {
-    font-size: 1.125rem;
-    font-family: "Barlow", sans-serif
-}
+    .nft-item-bottom .nft-content .nft-price {
+        font-size: 1.125rem;
+        font-family: "Barlow", sans-serif
+    }
 
-.nft-item-bottom .nft-content .nft-like {
-    font-size: 1.25rem;
-    font-family: "Barlow", sans-serif
-}
+    .nft-item-bottom .nft-content .nft-like {
+        font-size: 1.25rem;
+        font-family: "Barlow", sans-serif
+    }
 
 .veryfied:after {
     content: "";
@@ -1889,42 +1917,42 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     border-radius: 3px
 }
 
-.seller-item .seller-inner {
-    padding: 15px 10px;
-    gap: 10px
-}
+    .seller-item .seller-inner {
+        padding: 15px 10px;
+        gap: 10px
+    }
 
-.seller-item .seller-inner p {
-    font-size: 1.125rem;
-    color: #00edc5;
-    font-family: "Barlow", sans-serif
-}
+        .seller-item .seller-inner p {
+            font-size: 1.125rem;
+            color: #00edc5;
+            font-family: "Barlow", sans-serif
+        }
 
-.seller-item .seller-part {
-    gap: 10px
-}
+    .seller-item .seller-part {
+        gap: 10px
+    }
 
-.seller-item .assets-owner {
-    gap: 15px
-}
+    .seller-item .assets-owner {
+        gap: 15px
+    }
 
-.seller-item .assets-owner .owner-thumb {
-    width: 60px;
-    height: 60px
-}
+        .seller-item .assets-owner .owner-thumb {
+            width: 60px;
+            height: 60px
+        }
 
-.seller-item .assets-owner .owner-thumb.veryfied:after {
-    width: 18px;
-    height: 18px;
-    font-size: 16px;
-    right: 2px;
-    bottom: 5px
-}
+            .seller-item .assets-owner .owner-thumb.veryfied:after {
+                width: 18px;
+                height: 18px;
+                font-size: 16px;
+                right: 2px;
+                bottom: 5px
+            }
 
-.seller-item .assets-owner .owner-thumb img {
-    border: 2px solid #030010;
-    border-radius: 50%
-}
+            .seller-item .assets-owner .owner-thumb img {
+                border: 2px solid #030010;
+                border-radius: 50%
+            }
 
 .follow-part .btn-follow {
     width: 90px;
@@ -1938,56 +1966,56 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     color: #fff
 }
 
-.follow-part .btn-follow span {
-    transition: all .3s ease
-}
+    .follow-part .btn-follow span {
+        transition: all .3s ease
+    }
 
-.follow-part .btn-follow:focus-visible {
-    box-shadow: none;
-    outline: none;
-    border: none
-}
+    .follow-part .btn-follow:focus-visible {
+        box-shadow: none;
+        outline: none;
+        border: none
+    }
 
-.follow-part .btn-follow.follow-state {
-    background: #3d8fff
-}
+    .follow-part .btn-follow.follow-state {
+        background: #3d8fff
+    }
 
-.follow-part .btn-follow.follow-state:hover {
-    background: #0a72ff
-}
+        .follow-part .btn-follow.follow-state:hover {
+            background: #0a72ff
+        }
 
-.follow-part .btn-follow .unfollow {
-    display: none
-}
+    .follow-part .btn-follow .unfollow {
+        display: none
+    }
 
-.follow-part .btn-follow .following {
-    display: none
-}
+    .follow-part .btn-follow .following {
+        display: none
+    }
 
 .follow-part.activefollow .btn-follow {
     transition: all .3s ease;
     background-color: #5138ee
 }
 
-.follow-part.activefollow .btn-follow .follow {
-    display: none
-}
+    .follow-part.activefollow .btn-follow .follow {
+        display: none
+    }
 
-.follow-part.activefollow .btn-follow .following {
-    display: block
-}
+    .follow-part.activefollow .btn-follow .following {
+        display: block
+    }
 
-.follow-part.activefollow .btn-follow:hover {
-    background-color: #fa7d7d !important
-}
+    .follow-part.activefollow .btn-follow:hover {
+        background-color: #fa7d7d !important
+    }
 
-.follow-part.activefollow .btn-follow:hover .unfollow {
-    display: block
-}
+        .follow-part.activefollow .btn-follow:hover .unfollow {
+            display: block
+        }
 
-.follow-part.activefollow .btn-follow:hover .following {
-    display: none
-}
+        .follow-part.activefollow .btn-follow:hover .following {
+            display: none
+        }
 
 .seller-icon {
     background: #5138ee;
@@ -1996,16 +2024,16 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     border-radius: 2px
 }
 
-.seller-icon:after {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 5px 0 5px;
-    border-color: #5138ee transparent transparent transparent;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -5px
-}
+    .seller-icon:after {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0 5px;
+        border-color: #5138ee transparent transparent transparent;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -5px
+    }
 
 .activity-item .lab-inner .lab-thumb {
     width: 130px
@@ -2028,7 +2056,6 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
 @media(min-width: 768px) {
-
     .activity-item .lab-inner .lab-content h4,
     .activity-item .lab-inner .lab-content p {
         max-width: 70%
@@ -2056,18 +2083,18 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     transition: all .3s ease
 }
 
-.wallet-item.home-4 {
-    border-color: rgba(255, 255, 255, .2);
-    background-color: #000
-}
+    .wallet-item.home-4 {
+        border-color: rgba(255, 255, 255, .2);
+        background-color: #000
+    }
 
-.wallet-item .wallet-content p {
-    line-height: 1.3
-}
+    .wallet-item .wallet-content p {
+        line-height: 1.3
+    }
 
-.wallet-item:hover {
-    border-color: rgba(81, 56, 238, .6)
-}
+    .wallet-item:hover {
+        border-color: rgba(81, 56, 238, .6)
+    }
 
 .custom-upload .file-btn {
     border-radius: 5px
@@ -2093,33 +2120,33 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     padding: 5px
 }
 
-.paginations ul li a {
-    width: 46px;
-    height: 46px;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, .15);
-    color: #fff;
-    z-index: 1;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .paginations ul li a {
+        width: 46px;
+        height: 46px;
+        box-shadow: 0 0px 5px rgba(0, 0, 0, .15);
+        color: #fff;
+        z-index: 1;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.paginations ul li a.active,
-.paginations ul li a:hover {
-    color: #fff
-}
+        .paginations ul li a.active,
+        .paginations ul li a:hover {
+            color: #fff
+        }
 
-.paginations ul li a.dot {
-    box-shadow: none
-}
+        .paginations ul li a.dot {
+            box-shadow: none
+        }
 
-.paginations ul li a.dot:hover {
-    background: transparent;
-    color: #fff
-}
+            .paginations ul li a.dot:hover {
+                background: transparent;
+                color: #fff
+            }
 
 .scrollToTop {
     position: fixed;
@@ -2164,31 +2191,31 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     background: #040b29
 }
 
-.preloader .preloader-inner {
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
-}
+    .preloader .preloader-inner {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
 
-.preloader .preloader-inner .preloader-icon {
-    width: 72px;
-    height: 72px
-}
+        .preloader .preloader-inner .preloader-icon {
+            width: 72px;
+            height: 72px
+        }
 
-.preloader .preloader-inner .preloader-icon span {
-    width: 72px;
-    height: 72px;
-    border-radius: 100%;
-    background: #5138ee;
-    -webkit-animation: preloader-fx 1.6s linear infinite;
-    animation: preloader-fx 1.6s linear infinite
-}
+            .preloader .preloader-inner .preloader-icon span {
+                width: 72px;
+                height: 72px;
+                border-radius: 100%;
+                background: #5138ee;
+                -webkit-animation: preloader-fx 1.6s linear infinite;
+                animation: preloader-fx 1.6s linear infinite
+            }
 
-.preloader .preloader-inner .preloader-icon span:last-child {
-    animation-delay: -0.8s;
-    -webkit-animation-delay: -0.8s
-}
+                .preloader .preloader-inner .preloader-icon span:last-child {
+                    animation-delay: -0.8s;
+                    -webkit-animation-delay: -0.8s
+                }
 
 @keyframes preloader-fx {
     0% {
@@ -2226,14 +2253,14 @@ aside {
     border-radius: 5px
 }
 
-.profile-widget .widget-title {
-    padding: 20px;
-    border-bottom: 1px solid #040b29
-}
+    .profile-widget .widget-title {
+        padding: 20px;
+        border-bottom: 1px solid #040b29
+    }
 
-.profile-widget .widget-title h5 {
-    text-transform: capitalize
-}
+        .profile-widget .widget-title h5 {
+            text-transform: capitalize
+        }
 
 .nft-search-input input {
     background: #040b29;
@@ -2242,12 +2269,12 @@ aside {
     padding-right: 45px !important
 }
 
-.nft-search-input input:focus {
-    border-color: rgba(81, 56, 238, .4);
-    box-shadow: none;
-    background: #040b29;
-    color: #fff
-}
+    .nft-search-input input:focus {
+        border-color: rgba(81, 56, 238, .4);
+        box-shadow: none;
+        background: #040b29;
+        color: #fff
+    }
 
 .nft-search-input button {
     right: 10px;
@@ -2259,10 +2286,10 @@ aside {
     box-shadow: none
 }
 
-.nft-search-input button i {
-    font-size: 1.2rem;
-    color: #fff
-}
+    .nft-search-input button i {
+        font-size: 1.2rem;
+        color: #fff
+    }
 
 .widget {
     padding: 25px;
@@ -2271,29 +2298,29 @@ aside {
     border-radius: 5px
 }
 
-.widget .widget-header {
-    padding: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1)
-}
+    .widget .widget-header {
+        padding: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, .1)
+    }
 
-.widget .widget-header .title {
-    font-size: 20px;
-    text-transform: capitalize
-}
+        .widget .widget-header .title {
+            font-size: 20px;
+            text-transform: capitalize
+        }
 
-.widget .widget-wrapper {
-    padding: 15px 0
-}
+    .widget .widget-wrapper {
+        padding: 15px 0
+    }
 
-.widget .widget-wrapper li {
-    list-style: none;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-    padding: 15px 20px
-}
+        .widget .widget-wrapper li {
+            list-style: none;
+            border-bottom: 1px solid rgba(255, 255, 255, .1);
+            padding: 15px 20px
+        }
 
-.widget .widget-wrapper li:last-child {
-    border-bottom: none
-}
+            .widget .widget-wrapper li:last-child {
+                border-bottom: none
+            }
 
 @media(max-width: 991px) {
     .widget.widget-search {
@@ -2327,47 +2354,47 @@ aside {
     padding: 0
 }
 
-.widget.widget-archive .widget-wrapper li a,
-.widget.widget-category .widget-wrapper li a {
-    color: #fff;
-    padding: 15px 20px
-}
+    .widget.widget-archive .widget-wrapper li a,
+    .widget.widget-category .widget-wrapper li a {
+        color: #fff;
+        padding: 15px 20px
+    }
 
-.widget.widget-archive .widget-wrapper li a.active,
-.widget.widget-archive .widget-wrapper li a:hover,
-.widget.widget-category .widget-wrapper li a.active,
-.widget.widget-category .widget-wrapper li a:hover {
-    color: #5138ee
-}
+        .widget.widget-archive .widget-wrapper li a.active,
+        .widget.widget-archive .widget-wrapper li a:hover,
+        .widget.widget-category .widget-wrapper li a.active,
+        .widget.widget-category .widget-wrapper li a:hover {
+            color: #5138ee
+        }
 
 .widget.widget-post ul.widget-wrapper li .post-thumb {
     width: 70px;
     height: 70px
 }
 
-.widget.widget-post ul.widget-wrapper li .post-thumb a {
-    display: inline-flex
-}
+    .widget.widget-post ul.widget-wrapper li .post-thumb a {
+        display: inline-flex
+    }
 
-.widget.widget-post ul.widget-wrapper li .post-thumb a img {
-    border-radius: 5px
-}
+        .widget.widget-post ul.widget-wrapper li .post-thumb a img {
+            border-radius: 5px
+        }
 
 .widget.widget-post ul.widget-wrapper li .post-content {
     width: calc(100% - 85px)
 }
 
-.widget.widget-post ul.widget-wrapper li .post-content a h6 {
-    line-height: 1.2;
-    font-weight: 500;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .widget.widget-post ul.widget-wrapper li .post-content a h6 {
+        line-height: 1.2;
+        font-weight: 500;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.widget.widget-post ul.widget-wrapper li .post-content a h6:hover {
-    color: #5138ee
-}
+        .widget.widget-post ul.widget-wrapper li .post-content a h6:hover {
+            color: #5138ee
+        }
 
 .widget.widget-instagram ul.widget-wrapper {
     padding: 25px 20px;
@@ -2375,10 +2402,10 @@ aside {
     row-gap: 2px
 }
 
-.widget.widget-instagram ul.widget-wrapper li {
-    width: calc(100% / 3 - 7px);
-    border: none
-}
+    .widget.widget-instagram ul.widget-wrapper li {
+        width: calc(100% / 3 - 7px);
+        border: none
+    }
 
 @media(min-width: 992px)and (max-width: 1199px) {
     .widget.widget-instagram ul.widget-wrapper li {
@@ -2390,130 +2417,130 @@ aside {
     border-radius: 5px
 }
 
-.widget.widget-instagram ul.widget-wrapper li a img {
-    transition: .6s all cubic-bezier(0.23, 1, 0.32, 1)
-}
+    .widget.widget-instagram ul.widget-wrapper li a img {
+        transition: .6s all cubic-bezier(0.23, 1, 0.32, 1)
+    }
 
-.widget.widget-instagram ul.widget-wrapper li a:hover img {
-    transform: scale(1.1) rotate(3deg)
-}
+    .widget.widget-instagram ul.widget-wrapper li a:hover img {
+        transform: scale(1.1) rotate(3deg)
+    }
 
 .widget.widget-tags ul.widget-wrapper {
     padding: 20px
 }
 
-.widget.widget-tags ul.widget-wrapper li {
-    border: none
-}
+    .widget.widget-tags ul.widget-wrapper li {
+        border: none
+    }
 
-.widget.widget-tags ul.widget-wrapper li a {
-    padding: 5px 10px;
-    border: 1px solid rgba(255, 255, 255, .1);
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease;
-    margin: 5px;
-    font-size: 14px;
-    border-radius: 5px
-}
+        .widget.widget-tags ul.widget-wrapper li a {
+            padding: 5px 10px;
+            border: 1px solid rgba(255, 255, 255, .1);
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            transition: all .3s ease;
+            margin: 5px;
+            font-size: 14px;
+            border-radius: 5px
+        }
 
-.widget.widget-tags ul.widget-wrapper li a.active,
-.widget.widget-tags ul.widget-wrapper li a:hover {
-    color: #fff
-}
+            .widget.widget-tags ul.widget-wrapper li a.active,
+            .widget.widget-tags ul.widget-wrapper li a:hover {
+                color: #fff
+            }
 
 .widget.recipe-categori .widget-wrapper {
     padding: 25px 15px
 }
 
-.widget.recipe-categori .widget-wrapper .recipe-item {
-    border: 1px dotted rgba(255, 255, 255, .1);
-    border-width: 1px;
-    border-top: none;
-    border-right: none;
-    margin: 5px
-}
+    .widget.recipe-categori .widget-wrapper .recipe-item {
+        border: 1px dotted rgba(255, 255, 255, .1);
+        border-width: 1px;
+        border-top: none;
+        border-right: none;
+        margin: 5px
+    }
 
 .widget.shop-widget {
     box-shadow: 0 0 10px rgba(136, 136, 136, .1);
     margin-top: 35px
 }
 
-.widget.shop-widget .widget-wrapper .shop-menu li {
-    list-style: none;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-    padding: 12px 15px
-}
+    .widget.shop-widget .widget-wrapper .shop-menu li {
+        list-style: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+        padding: 12px 15px
+    }
 
-.widget.shop-widget .widget-wrapper .shop-menu li:last-child {
-    border-bottom: none
-}
+        .widget.shop-widget .widget-wrapper .shop-menu li:last-child {
+            border-bottom: none
+        }
 
-.widget.shop-widget .widget-wrapper .shop-menu li.open>a {
-    color: #5138ee
-}
+        .widget.shop-widget .widget-wrapper .shop-menu li.open > a {
+            color: #5138ee
+        }
 
-.widget.shop-widget .widget-wrapper .shop-menu li a {
-    color: #fff;
-    font-weight: 500
-}
+        .widget.shop-widget .widget-wrapper .shop-menu li a {
+            color: #fff;
+            font-weight: 500
+        }
 
-.widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu {
-    margin: 0;
-    display: none
-}
+        .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu {
+            margin: 0;
+            display: none
+        }
 
-.widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li {
-    padding: 2px 0;
-    border-bottom: none
-}
+            .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li {
+                padding: 2px 0;
+                border-bottom: none
+            }
 
-.widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li.open>a {
-    color: #5138ee
-}
+                .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li.open > a {
+                    color: #5138ee
+                }
 
-.widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a {
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 14px;
-    font-weight: 400;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+                .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a {
+                    color: #fff;
+                    text-transform: capitalize;
+                    font-size: 14px;
+                    font-weight: 400;
+                    -webkit-transition: all .3s ease;
+                    -moz-transition: all .3s ease;
+                    transition: all .3s ease
+                }
 
-.widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a.active,
-.widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a:hover {
-    color: #5138ee
-}
+                    .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a.active,
+                    .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a:hover {
+                        color: #5138ee
+                    }
 
 .widget.letest-product {
     margin-top: 35px;
     box-shadow: 0 0 10px rgba(136, 136, 136, .1)
 }
 
-.widget.letest-product .widget-wrapper ul li {
-    padding: 15px;
-    list-style: none;
-    border-bottom: 1px solid rgba(255, 255, 255, .1)
-}
+    .widget.letest-product .widget-wrapper ul li {
+        padding: 15px;
+        list-style: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .1)
+    }
 
-.widget.letest-product .widget-wrapper ul li:last-child {
-    border-bottom: none
-}
+        .widget.letest-product .widget-wrapper ul li:last-child {
+            border-bottom: none
+        }
 
-.widget.letest-product .widget-wrapper ul li:hover .product-thumb img {
-    transform: scale(1.1)
-}
+        .widget.letest-product .widget-wrapper ul li:hover .product-thumb img {
+            transform: scale(1.1)
+        }
 
-.widget.letest-product .widget-wrapper ul li:hover .product-content h6 a {
-    color: #5138ee
-}
+        .widget.letest-product .widget-wrapper ul li:hover .product-content h6 a {
+            color: #5138ee
+        }
 
-.widget.letest-product .widget-wrapper ul li .product-thumb {
-    width: 70px;
-    height: 70px
-}
+        .widget.letest-product .widget-wrapper ul li .product-thumb {
+            width: 70px;
+            height: 70px
+        }
 
 @media(min-width: 992px)and (max-width: 1199px) {
     .widget.letest-product .widget-wrapper ul li .product-thumb {
@@ -2590,156 +2617,156 @@ aside {
     z-index: 101
 }
 
-.header.style-2 .header__search input:focus {
-    border-color: rgba(81, 255, 0, .4)
-}
+    .header.style-2 .header__search input:focus {
+        border-color: rgba(81, 255, 0, .4)
+    }
 
-.header.style-2 .header__search button i:hover {
-    color: #51ff00
-}
+    .header.style-2 .header__search button i:hover {
+        color: #51ff00
+    }
 
-.header.style-2 .header__nav-link[aria-expanded=true] {
-    color: #51ff00
-}
+    .header.style-2 .header__nav-link[aria-expanded=true] {
+        color: #51ff00
+    }
 
-.header.style-2 .header__nav-link[aria-expanded=true]:before {
-    background-color: #51ff00
-}
+        .header.style-2 .header__nav-link[aria-expanded=true]:before {
+            background-color: #51ff00
+        }
 
-.header.style-2 .header__nav-link[aria-expanded=true] svg {
-    fill: #51ff00
-}
+        .header.style-2 .header__nav-link[aria-expanded=true] svg {
+            fill: #51ff00
+        }
 
-.header.style-2 .header__action--profile .dropdown-toggle.show {
-    color: #51ff00
-}
+    .header.style-2 .header__action--profile .dropdown-toggle.show {
+        color: #51ff00
+    }
 
-.header.style-2 .header__action--profile .dropdown-menu .dropdown-item:hover {
-    color: #51ff00
-}
+    .header.style-2 .header__action--profile .dropdown-menu .dropdown-item:hover {
+        color: #51ff00
+    }
 
-.header.style-2 .header__action--profile .dropdown-toggle span:nth-of-type(1) {
-    background-color: #51ff00
-}
+    .header.style-2 .header__action--profile .dropdown-toggle span:nth-of-type(1) {
+        background-color: #51ff00
+    }
 
-.header.style-2 .header__action--profile .dropdown-toggle span:nth-of-type(1) i {
-    color: #000
-}
+        .header.style-2 .header__action--profile .dropdown-toggle span:nth-of-type(1) i {
+            color: #000
+        }
 
-.header.style-2 .wallet-btn a span i {
-    color: #51ff00
-}
+    .header.style-2 .wallet-btn a span i {
+        color: #51ff00
+    }
 
-.header.style-2 * a:hover svg {
-    fill: #51ff00
-}
+    .header.style-2 * a:hover svg {
+        fill: #51ff00
+    }
 
-.header.style-2 .drop-down-item.active,
-.header.style-2 .drop-down-item:hover {
-    color: #51ff00 !important
-}
+    .header.style-2 .drop-down-item.active,
+    .header.style-2 .drop-down-item:hover {
+        color: #51ff00 !important
+    }
 
-.header.style-light {
-    box-shadow: rgba(0, 0, 0, .1)
-}
+    .header.style-light {
+        box-shadow: rgba(0, 0, 0, .1)
+    }
 
-.header.style-light .header__search input {
-    border-color: rgba(0, 0, 0, .2);
-    color: #000
-}
+        .header.style-light .header__search input {
+            border-color: rgba(0, 0, 0, .2);
+            color: #000
+        }
 
-.header.style-light .header__search input::placeholder {
-    color: #000
-}
+            .header.style-light .header__search input::placeholder {
+                color: #000
+            }
 
-.header.style-light .header__search input:focus {
-    border-color: rgba(81, 56, 238, .4);
-    box-shadow: none
-}
+            .header.style-light .header__search input:focus {
+                border-color: rgba(81, 56, 238, .4);
+                box-shadow: none
+            }
 
-.header.style-light .header__search button i {
-    color: #000
-}
+        .header.style-light .header__search button i {
+            color: #000
+        }
 
-.header.style-light .header__search button i:hover {
-    color: #5138ee
-}
+            .header.style-light .header__search button i:hover {
+                color: #5138ee
+            }
 
-.header.style-light .header__nav-link,
-.header.style-light a {
-    color: #000
-}
+        .header.style-light .header__nav-link,
+        .header.style-light a {
+            color: #000
+        }
 
-.header.style-light .header__nav-link svg,
-.header.style-light a svg {
-    fill: #000
-}
+            .header.style-light .header__nav-link svg,
+            .header.style-light a svg {
+                fill: #000
+            }
 
-.header.style-light .header__nav-link:before {
-    background-color: transparent
-}
+            .header.style-light .header__nav-link:before {
+                background-color: transparent
+            }
 
-.header.style-light .header__nav-menu {
-    background: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .2)
-}
+        .header.style-light .header__nav-menu {
+            background: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+        }
 
-.header.style-light .header__nav-link[aria-expanded=true] {
-    color: #5138ee
-}
+        .header.style-light .header__nav-link[aria-expanded=true] {
+            color: #5138ee
+        }
 
-.header.style-light .header__nav-link[aria-expanded=true]:before {
-    background-color: #5138ee
-}
+            .header.style-light .header__nav-link[aria-expanded=true]:before {
+                background-color: #5138ee
+            }
 
-.header.style-light .header__nav-link[aria-expanded=true] svg {
-    fill: #5138ee
-}
+            .header.style-light .header__nav-link[aria-expanded=true] svg {
+                fill: #5138ee
+            }
 
-.header.style-light .header__action--profile .dropdown-toggle.show {
-    color: #5138ee
-}
+        .header.style-light .header__action--profile .dropdown-toggle.show {
+            color: #5138ee
+        }
 
-.header.style-light .header__action--profile .dropdown-menu .dropdown-item:hover {
-    color: #5138ee
-}
+        .header.style-light .header__action--profile .dropdown-menu .dropdown-item:hover {
+            color: #5138ee
+        }
 
-.header.style-light .header__action--profile .dropdown-toggle span:nth-of-type(1) {
-    background-color: #5138ee
-}
+        .header.style-light .header__action--profile .dropdown-toggle span:nth-of-type(1) {
+            background-color: #5138ee
+        }
 
-.header.style-light .wallet-btn a span i {
-    color: #5138ee
-}
+        .header.style-light .wallet-btn a span i {
+            color: #5138ee
+        }
 
-.header.style-light * a:hover svg {
-    fill: #5138ee
-}
+        .header.style-light * a:hover svg {
+            fill: #5138ee
+        }
 
-.header.style-light.header-fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #fff;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
-    z-index: 99
-}
+        .header.style-light.header-fixed {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+            z-index: 99
+        }
 
-.header.style-light .header__action-btn i {
-    color: #000
-}
+        .header.style-light .header__action-btn i {
+            color: #000
+        }
 
-.header.style-light .header__search {
-    background-color: #fff
-}
+        .header.style-light .header__search {
+            background-color: #fff
+        }
 
-.header.style-light .menu-trigger span {
-    background-color: #000
-}
+        .header.style-light .menu-trigger span {
+            background-color: #000
+        }
 
-.header.style-light .header__menu {
-    background-color: #fff
-}
+        .header.style-light .header__menu {
+            background-color: #fff
+        }
 
 @media(max-width: 1199px) {
     .header.style-light .header__menu {
@@ -2768,10 +2795,10 @@ aside {
     border-radius: 50%
 }
 
-.header.home-4 .dropdown-toggle span:nth-of-type(1) i {
-    color: #000 !important;
-    font-size: 14px
-}
+    .header.home-4 .dropdown-toggle span:nth-of-type(1) i {
+        color: #000 !important;
+        font-size: 14px
+    }
 
 .header.home-4 .dropdown-toggle.show {
     color: #f3a735
@@ -2830,7 +2857,7 @@ aside {
 
 .header__logo {
     display: inline-flex;
-    /* border-right: 1px solid rgba(255, 255, 255, .1);*/
+   /* border-right: 1px solid rgba(255, 255, 255, .1);*/
     padding-right: 1rem;
     margin-right: 1rem
 }
@@ -2864,9 +2891,9 @@ aside {
     margin-left: 20px
 }
 
-.header__action:first-child {
-    margin-left: 0
-}
+    .header__action:first-child {
+        margin-left: 0
+    }
 
 .header__action--profile {
     width: auto;
@@ -2892,10 +2919,10 @@ aside {
     border-radius: 50%
 }
 
-.header__action--profile .dropdown-toggle span:nth-of-type(1) i {
-    color: #040b29;
-    font-size: 14px
-}
+    .header__action--profile .dropdown-toggle span:nth-of-type(1) i {
+        color: #040b29;
+        font-size: 14px
+    }
 
 .header__action--profile .dropdown-toggle.show {
     color: #5138ee
@@ -2905,14 +2932,14 @@ aside {
     background: #1a203c
 }
 
-.header__action--profile .dropdown-menu .dropdown-item {
-    color: #fff
-}
+    .header__action--profile .dropdown-menu .dropdown-item {
+        color: #fff
+    }
 
-.header__action--profile .dropdown-menu .dropdown-item:hover {
-    background: transparent;
-    color: #5138ee
-}
+        .header__action--profile .dropdown-menu .dropdown-item:hover {
+            background: transparent;
+            color: #5138ee
+        }
 
 .wallet-btn {
     padding-left: 1rem
@@ -2928,10 +2955,10 @@ aside {
     display: inline-flex
 }
 
-.wallet-btn a span i {
-    font-size: 1.7rem;
-    color: #5138ee
-}
+    .wallet-btn a span i {
+        font-size: 1.7rem;
+        color: #5138ee
+    }
 
 .header__action-btn {
     display: flex;
@@ -2959,9 +2986,9 @@ aside {
     font-size: 20px
 }
 
-.header__action-btn i:hover {
-    color: #5138ee
-}
+    .header__action-btn i:hover {
+        color: #5138ee
+    }
 
 .header__btn {
     background: transparent;
@@ -2990,26 +3017,26 @@ aside {
     margin-right: 1%
 }
 
-.menu-trigger span {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 4px
-}
+    .menu-trigger span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 4px
+    }
 
-.menu-trigger span:nth-of-type(1) {
-    top: 0
-}
+        .menu-trigger span:nth-of-type(1) {
+            top: 0
+        }
 
-.menu-trigger span:nth-of-type(2) {
-    top: 9px
-}
+        .menu-trigger span:nth-of-type(2) {
+            top: 9px
+        }
 
-.menu-trigger span:nth-of-type(3) {
-    bottom: 0
-}
+        .menu-trigger span:nth-of-type(3) {
+            bottom: 0
+        }
 
 #menu05.header__btn--active span:nth-of-type(1) {
     transform: translateY(9px) rotate(-45deg);
@@ -3044,62 +3071,62 @@ aside {
     border-radius: 5px
 }
 
-.header__search input {
-    width: calc(100% - 30px);
-    height: 40px;
-    background-color: transparent;
-    color: #fff;
-    font-size: 14px;
-    border-radius: 99px;
-    border: none;
-    padding: 0 45px 0 20px;
-    font-weight: 400;
-    border: 1px solid rgba(255, 255, 255, .1);
-    outline: none
-}
+    .header__search input {
+        width: calc(100% - 30px);
+        height: 40px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 99px;
+        border: none;
+        padding: 0 45px 0 20px;
+        font-weight: 400;
+        border: 1px solid rgba(255, 255, 255, .1);
+        outline: none
+    }
 
-.header__search input:focus {
-    box-shadow: 0 0 10px rgba(3, 0, 16, .2);
-    border-color: rgba(81, 56, 238, .4)
-}
+        .header__search input:focus {
+            box-shadow: 0 0 10px rgba(3, 0, 16, .2);
+            border-color: rgba(81, 56, 238, .4)
+        }
 
-.header__search input::placeholder {
-    color: #fff
-}
+        .header__search input::placeholder {
+            color: #fff
+        }
 
-.header__search button {
-    right: 60px;
-    top: 15px;
-    height: 40px;
-    width: auto;
-    background-color: transparent;
-    border: none;
-    outline: none
-}
+    .header__search button {
+        right: 60px;
+        top: 15px;
+        height: 40px;
+        width: auto;
+        background-color: transparent;
+        border: none;
+        outline: none
+    }
 
-.header__search button i {
-    color: #fff;
-    transition: all .3s ease
-}
+        .header__search button i {
+            color: #fff;
+            transition: all .3s ease
+        }
 
-.header__search button i:hover {
-    color: #5138ee
-}
+            .header__search button i:hover {
+                color: #5138ee
+            }
 
-.header__search button svg {
-    width: 20px;
-    height: auto;
-    fill: #bdbdbd;
-    transition: .5s ease
-}
+        .header__search button svg {
+            width: 20px;
+            height: auto;
+            fill: #bdbdbd;
+            transition: .5s ease
+        }
 
-.header__search button svg:hover {
-    fill: #5138ee
-}
+            .header__search button svg:hover {
+                fill: #5138ee
+            }
 
-.header__search button.close {
-    right: 15px
-}
+        .header__search button.close {
+            right: 15px
+        }
 
 .header__search--active {
     top: 0
@@ -3149,47 +3176,47 @@ aside {
     flex-direction: row
 }
 
-.header__nav-link:before {
-    width: 0;
-    height: 2px;
-    background: #fff;
-    bottom: -5px;
-    transition: all .3s ease
-}
+    .header__nav-link:before {
+        width: 0;
+        height: 2px;
+        background: #fff;
+        bottom: -5px;
+        transition: all .3s ease
+    }
 
-.header__nav-link:hover {
-    color: #fff
-}
+    .header__nav-link:hover {
+        color: #fff
+    }
 
-.header__nav-link:hover:before {
-    width: 100%
-}
+        .header__nav-link:hover:before {
+            width: 100%
+        }
 
-.header__nav-link[data-bs-toggle=dropdown]:after {
-    content: "";
-    font-family: "icoFont";
-    top: 60%;
-    transform: translateY(-50%);
-    right: -18px;
-    transition: all .3s ease
-}
+    .header__nav-link[data-bs-toggle=dropdown]:after {
+        content: "";
+        font-family: "icoFont";
+        top: 60%;
+        transform: translateY(-50%);
+        right: -18px;
+        transition: all .3s ease
+    }
 
-.header__nav-link.active::before {
-    width: 100%
-}
+    .header__nav-link.active::before {
+        width: 100%
+    }
 
-.header__nav-link.active svg {
-    fill: #5138ee
-}
+    .header__nav-link.active svg {
+        fill: #5138ee
+    }
 
-.header__nav-link svg {
-    fill: #fff;
-    width: 1.75rem;
-    height: auto;
-    transition: fill .5s ease;
-    margin-left: 1px;
-    margin-top: 2px
-}
+    .header__nav-link svg {
+        fill: #fff;
+        width: 1.75rem;
+        height: auto;
+        transition: fill .5s ease;
+        margin-left: 1px;
+        margin-top: 2px
+    }
 
 .header__nav-link--menu svg {
     width: 20px;
@@ -3202,15 +3229,15 @@ aside {
     font-weight: 500
 }
 
-.header__nav-link--active:before {
-    width: 0;
-    height: 2px;
-    background-color: #fff
-}
+    .header__nav-link--active:before {
+        width: 0;
+        height: 2px;
+        background-color: #fff
+    }
 
-.header__nav-link--active:hover:before {
-    width: 100%
-}
+    .header__nav-link--active:hover:before {
+        width: 100%
+    }
 
 .header__nav-link[aria-expanded=true]:after {
     transform: translateY(-50%) rotate(-180deg)
@@ -3239,50 +3266,50 @@ aside {
     border: 1px solid rgba(255, 255, 255, .1)
 }
 
-.header__nav-menu .header__nav-menu {
-    margin-top: 5px;
-    margin-left: 20px
-}
+    .header__nav-menu .header__nav-menu {
+        margin-top: 5px;
+        margin-left: 20px
+    }
 
-.header__nav-menu li {
-    position: relative;
-    padding-block: 5px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1)
-}
+    .header__nav-menu li {
+        position: relative;
+        padding-block: 5px;
+        border-bottom: 1px solid rgba(255, 255, 255, .1)
+    }
 
-.header__nav-menu li:last-child {
-    border-bottom: none
-}
+        .header__nav-menu li:last-child {
+            border-bottom: none
+        }
 
-.header__nav-menu a {
-    display: flex;
-    flex-direction: row;
-    color: #fff;
-    font-family: "Barlow", sans-serif;
-    font-weight: 500;
-    font-size: 16px
-}
+    .header__nav-menu a {
+        display: flex;
+        flex-direction: row;
+        color: #fff;
+        font-family: "Barlow", sans-serif;
+        font-weight: 500;
+        font-size: 16px
+    }
 
 .drop-down-item {
     transition: all .3s ease
 }
 
-.drop-down-item:before {
-    transition: all .3s ease
-}
+    .drop-down-item:before {
+        transition: all .3s ease
+    }
 
-.drop-down-item.active,
-.drop-down-item:hover {
-    transform: translateX(5px);
-    color: #fff !important
-}
+    .drop-down-item.active,
+    .drop-down-item:hover {
+        transform: translateX(5px);
+        color: #fff !important
+    }
 
-.drop-down-item.active::before,
-.drop-down-item:hover::before {
-    content: "";
-    font-family: "icoFont";
-    left: -15px
-}
+        .drop-down-item.active::before,
+        .drop-down-item:hover::before {
+            content: "";
+            font-family: "icoFont";
+            left: -15px
+        }
 
 .header__nav-menu a svg {
     fill: #bdbdbd;
@@ -3312,49 +3339,49 @@ aside {
     border-right: 1px solid rgba(255, 255, 255, .1)
 }
 
-.header__profile-btn img {
-    display: none;
-    width: 40px !important;
-    height: 40px;
-    border-radius: 12px;
-    margin-right: 6px
-}
+    .header__profile-btn img {
+        display: none;
+        width: 40px !important;
+        height: 40px;
+        border-radius: 12px;
+        margin-right: 6px
+    }
 
-.header__profile-btn div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 6px
-}
+    .header__profile-btn div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 6px
+    }
 
-.header__profile-btn p {
-    margin-bottom: 0;
-    line-height: 22px;
-    font-size: 14px;
-    color: #fff;
-    font-weight: 500
-}
+    .header__profile-btn p {
+        margin-bottom: 0;
+        line-height: 22px;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500
+    }
 
-.header__profile-btn span {
-    font-size: 12px;
-    color: #bdbdbd;
-    line-height: 18px
-}
+    .header__profile-btn span {
+        font-size: 12px;
+        color: #bdbdbd;
+        line-height: 18px
+    }
 
-.header__profile-btn svg {
-    fill: #bdbdbd;
-    width: 16px;
-    height: auto;
-    transition: fill .5s ease;
-    margin-left: 6px;
-    margin-top: 2px
-}
+    .header__profile-btn svg {
+        fill: #bdbdbd;
+        width: 16px;
+        height: auto;
+        transition: fill .5s ease;
+        margin-left: 6px;
+        margin-top: 2px
+    }
 
-.header__profile-btn:hover svg,
-.header__profile-btn[aria-expanded=true] svg {
-    fill: #6164ff
-}
+    .header__profile-btn:hover svg,
+    .header__profile-btn[aria-expanded=true] svg {
+        fill: #6164ff
+    }
 
 .header__profile-menu {
     display: block;
@@ -3376,66 +3403,66 @@ aside {
     margin-top: 2px
 }
 
-.header__profile-menu li {
-    margin-bottom: 15px;
-    width: 100%
-}
+    .header__profile-menu li {
+        margin-bottom: 15px;
+        width: 100%
+    }
 
-.header__profile-menu li:last-child {
-    margin-bottom: 0
-}
+        .header__profile-menu li:last-child {
+            margin-bottom: 0
+        }
 
-.header__profile-menu li:last-child {
-    padding-top: 15px;
-    border-top: 1px solid #222227
-}
+        .header__profile-menu li:last-child {
+            padding-top: 15px;
+            border-top: 1px solid #222227
+        }
 
-.header__profile-menu a {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    color: #bdbdbd;
-    font-size: 14px;
-    font-weight: 400;
-    transition: color .5s ease;
-    position: relative
-}
+    .header__profile-menu a {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        color: #bdbdbd;
+        font-size: 14px;
+        font-weight: 400;
+        transition: color .5s ease;
+        position: relative
+    }
 
-.header__profile-menu a svg {
-    fill: #fff;
-    width: 20px;
-    height: auto;
-    transition: fill .5s ease;
-    margin-right: 10px
-}
+        .header__profile-menu a svg {
+            fill: #fff;
+            width: 20px;
+            height: auto;
+            transition: fill .5s ease;
+            margin-right: 10px
+        }
 
-.header__profile-menu a:hover {
-    color: #fff
-}
+        .header__profile-menu a:hover {
+            color: #fff
+        }
 
-.header__profile-menu a:hover svg {
-    fill: #6164ff
-}
+            .header__profile-menu a:hover svg {
+                fill: #6164ff
+            }
 
-.header__profile-menu.show {
-    z-index: 1000;
-    pointer-events: auto;
-    opacity: 1
-}
+    .header__profile-menu.show {
+        z-index: 1000;
+        pointer-events: auto;
+        opacity: 1
+    }
 
 @media(min-width: 576px) {
     .header__search {
         padding: 0 30px
     }
 
-    .header__search button {
-        right: 75px
-    }
+        .header__search button {
+            right: 75px
+        }
 
-    .header__search button.close {
-        right: 30px
-    }
+            .header__search button.close {
+                right: 30px
+            }
 
     .header__profile-btn img {
         display: block
@@ -3473,18 +3500,18 @@ aside {
         background-color: transparent
     }
 
-    .header__search input {
-        padding: 0 60px 0 20px;
-        width: 100%
-    }
+        .header__search input {
+            padding: 0 60px 0 20px;
+            width: 100%
+        }
 
-    .header__search button {
-        right: 20px
-    }
+        .header__search button {
+            right: 20px
+        }
 
-    .header__search button.close {
-        display: none
-    }
+            .header__search button.close {
+                display: none
+            }
 
     .header__search--active {
         top: auto
@@ -3565,34 +3592,34 @@ aside {
     font-size: 1.125rem
 }
 
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a {
-    color: #fff;
-    padding: 0 5px;
-    outline: none;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a {
+        color: #fff;
+        padding: 0 5px;
+        outline: none;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a:hover {
-    color: #5138ee
-}
+        .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a:hover {
+            color: #5138ee
+        }
 
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a::before {
-    background: #fff;
-    width: 8px;
-    height: 1px;
-    transform: translateY(-50%);
-    top: 50%;
-    right: -10px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+        .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a::before {
+            background: #fff;
+            width: 8px;
+            height: 1px;
+            transform: translateY(-50%);
+            top: 50%;
+            right: -10px;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            transition: all .3s ease
+        }
 
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li:first-child {
-    margin-left: 0
-}
+    .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li:first-child {
+        margin-left: 0
+    }
 
 .page-header-section.style-1 .page-header-content .page-header-inner .page-title .title-text {
     font-size: 24px;
@@ -3625,21 +3652,21 @@ aside {
     gap: 10px
 }
 
-.auction-section .section-header .header-content .auction-nav .auction-prev,
-.auction-section .section-header .header-content .auction-nav .auction-next {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, .1);
-    font-size: 20px;
-    transition: all .3s ease
-}
+    .auction-section .section-header .header-content .auction-nav .auction-prev,
+    .auction-section .section-header .header-content .auction-nav .auction-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, .1);
+        font-size: 20px;
+        transition: all .3s ease
+    }
 
-.auction-section .section-header .header-content .auction-nav .auction-prev:hover,
-.auction-section .section-header .header-content .auction-nav .auction-next:hover {
-    background: #5138ee
-}
+        .auction-section .section-header .header-content .auction-nav .auction-prev:hover,
+        .auction-section .section-header .header-content .auction-nav .auction-next:hover {
+            background: #5138ee
+        }
 
 .auction-section .auction-holder {
     cursor: e-resize
@@ -3652,30 +3679,30 @@ aside {
     border-radius: 2px
 }
 
-.live-icon svg {
-    width: 18px;
-    height: 18px;
-    fill: #5138ee;
-    top: -100%;
-    left: 50%;
-    transform: translateX(-50%)
-}
+    .live-icon svg {
+        width: 18px;
+        height: 18px;
+        fill: #5138ee;
+        top: -100%;
+        left: 50%;
+        transform: translateX(-50%)
+    }
 
-.live-icon svg path {
-    animation: wave 2s infinite
-}
+        .live-icon svg path {
+            animation: wave 2s infinite
+        }
 
-.live-icon svg path:nth-child(1) {
-    animation-delay: -0.35s
-}
+            .live-icon svg path:nth-child(1) {
+                animation-delay: -0.35s
+            }
 
-.live-icon svg path:nth-child(2) {
-    animation-delay: -0.25s
-}
+            .live-icon svg path:nth-child(2) {
+                animation-delay: -0.25s
+            }
 
-.live-icon svg path:nth-child(3) {
-    animation-delay: -0.15s
-}
+            .live-icon svg path:nth-child(3) {
+                animation-delay: -0.15s
+            }
 
 @keyframes wave {
     25% {
@@ -3687,35 +3714,35 @@ aside {
     gap: 10px
 }
 
-.seller-section .section-header .header-content .seller-filter-btns {
-    gap: 10px
-}
+    .seller-section .section-header .header-content .seller-filter-btns {
+        gap: 10px
+    }
 
-.seller-section .section-header .header-content .seller-filter-btns select {
-    color: #fff;
-    background-color: #5138ee;
-    border-radius: 99px;
-    border: none;
-    padding: .5rem 1rem;
-    padding-right: 1.5rem;
-    font-weight: bold;
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
-    background-repeat: no-repeat;
-    background-position: 93%;
-    outline: none
-}
+        .seller-section .section-header .header-content .seller-filter-btns select {
+            color: #fff;
+            background-color: #5138ee;
+            border-radius: 99px;
+            border: none;
+            padding: .5rem 1rem;
+            padding-right: 1.5rem;
+            font-weight: bold;
+            -webkit-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+            background-repeat: no-repeat;
+            background-position: 93%;
+            outline: none
+        }
 
-.seller-section .section-header .header-content .seller-filter-btns select option {
-    border-radius: 10px
-}
+            .seller-section .section-header .header-content .seller-filter-btns select option {
+                border-radius: 10px
+            }
 
-.seller-section .section-header .header-content .seller-filter-btns .days-select {
-    background-color: #fff;
-    color: #5138ee;
-    background-image: url("data:image/svg+xml;utf8,<svg fill='blue' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")
-}
+        .seller-section .section-header .header-content .seller-filter-btns .days-select {
+            background-color: #fff;
+            color: #5138ee;
+            background-image: url("data:image/svg+xml;utf8,<svg fill='blue' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")
+        }
 
 .seller-section .seller-wrapper {
     gap: 15px
@@ -3740,13 +3767,13 @@ aside {
     font-family: "Barlow", sans-serif
 }
 
-.view-all-btn span {
-    transition: all .3s ease
-}
+    .view-all-btn span {
+        transition: all .3s ease
+    }
 
-.view-all-btn:hover span {
-    transform: rotate(360deg)
-}
+    .view-all-btn:hover span {
+        transform: rotate(360deg)
+    }
 
 .assets-section .section-header .header-title .live-icon {
     border-radius: 52% 48% 53% 47%/6% 7% 93% 94%;
@@ -3755,11 +3782,11 @@ aside {
     margin-right: 5px
 }
 
-.assets-section .section-header .header-title .live-icon svg {
-    transform: rotate(40deg);
-    top: -65%;
-    left: 60%
-}
+    .assets-section .section-header .header-title .live-icon svg {
+        transform: rotate(40deg);
+        top: -65%;
+        left: 60%
+    }
 
 .assets-section .section-header .header-content .asset-filter-list {
     gap: 20px
@@ -3776,18 +3803,18 @@ aside {
     cursor: pointer
 }
 
-.assets-section .section-header .header-content .asset-filter-list .asset-filter-btn.is-checked {
-    color: #5138ee
-}
+    .assets-section .section-header .header-content .asset-filter-list .asset-filter-btn.is-checked {
+        color: #5138ee
+    }
 
 .assets-section .nft-item {
     transition: none
 }
 
-.assets-section .nft-item:hover:after,
-.assets-section .nft-item:hover:before {
-    display: inherit
-}
+    .assets-section .nft-item:hover:after,
+    .assets-section .nft-item:hover:before {
+        display: inherit
+    }
 
 @media(min-width: 576px) {
     .assets-section .nft-item {
@@ -3811,10 +3838,10 @@ aside {
     gap: 10px
 }
 
-.header-title span i {
-    color: #5138ee;
-    font-size: calc(1.3125rem + 0.75vw)
-}
+    .header-title span i {
+        color: #5138ee;
+        font-size: calc(1.3125rem + 0.75vw)
+    }
 
 @media(min-width: 1200px) {
     .header-title span i {
@@ -3826,21 +3853,21 @@ aside {
     gap: 10px
 }
 
-.hot-section .section-header .header-content .hot-nav .hot-prev,
-.hot-section .section-header .header-content .hot-nav .hot-next {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, .1);
-    font-size: 20px;
-    transition: all .3s ease
-}
+    .hot-section .section-header .header-content .hot-nav .hot-prev,
+    .hot-section .section-header .header-content .hot-nav .hot-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, .1);
+        font-size: 20px;
+        transition: all .3s ease
+    }
 
-.hot-section .section-header .header-content .hot-nav .hot-prev:hover,
-.hot-section .section-header .header-content .hot-nav .hot-next:hover {
-    background: #5138ee
-}
+        .hot-section .section-header .header-content .hot-nav .hot-prev:hover,
+        .hot-section .section-header .header-content .hot-nav .hot-next:hover {
+            background: #5138ee
+        }
 
 .sponsor-section .sponsor-wrapper {
     border: 1px solid rgba(255, 255, 255, .1);
@@ -3860,9 +3887,9 @@ aside {
     gap: 15px
 }
 
-.explore-section .section-header .nft-filter {
-    gap: 10px
-}
+    .explore-section .section-header .nft-filter {
+        gap: 10px
+    }
 
 @media(min-width: 768px) {
     .explore-section .section-header .nft-filter {
@@ -3924,10 +3951,10 @@ aside {
     background-position: center
 }
 
-.banner-section.style-2 .banner-wrapper {
-    padding-top: 183px;
-    padding-bottom: 120px
-}
+    .banner-section.style-2 .banner-wrapper {
+        padding-top: 183px;
+        padding-bottom: 120px
+    }
 
 @media(min-width: 992px) {
     .banner-section.style-2 .banner-wrapper {
@@ -3946,22 +3973,22 @@ aside {
     background-blend-mode: multiply
 }
 
-.banner-section.home-light h1 {
-    color: #000
-}
+    .banner-section.home-light h1 {
+        color: #000
+    }
 
-.banner-section.home-light p {
-    color: #555
-}
+    .banner-section.home-light p {
+        color: #555
+    }
 
-.banner-section.home-light .default-btn {
-    box-shadow: 0 3px 5px rgba(0, 0, 0, .1)
-}
+    .banner-section.home-light .default-btn {
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .1)
+    }
 
-.banner-section.home-light .default-btn.move-right {
-    border: 1px solid #5138ee;
-    color: #5138ee
-}
+        .banner-section.home-light .default-btn.move-right {
+            border: 1px solid #5138ee;
+            color: #5138ee
+        }
 
 .banner-section.home-4 .default-btn {
     background-color: #f3a735;
@@ -3992,12 +4019,12 @@ aside {
     gap: 15px
 }
 
-.banner-content .banner-btns a:last-child {
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    line-height: 36px
-}
+    .banner-content .banner-btns a:last-child {
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        line-height: 36px
+    }
 
 @media(min-width: 768px) {
     .banner-content .banner-btns a:last-child {
@@ -4031,9 +4058,9 @@ aside {
     border-radius: 10px
 }
 
-.profile-section .member-profile .profile-item .profile-cover img {
-    min-height: 150px
-}
+    .profile-section .member-profile .profile-item .profile-cover img {
+        min-height: 150px
+    }
 
 @media(min-width: 576px) {
     .profile-section .member-profile .profile-item .profile-cover img {
@@ -4141,7 +4168,6 @@ aside {
 }
 
 @media(min-width: 992px) {
-
     .profile-section .member-profile .profile-item .profile-information .profile-name,
     .profile-section .member-profile .profile-item .profile-information .profile-contact {
         transform: translateY(-70px)
@@ -4149,7 +4175,6 @@ aside {
 }
 
 @media(min-width: 1200px) {
-
     .profile-section .member-profile .profile-item .profile-information .profile-name,
     .profile-section .member-profile .profile-item .profile-information .profile-contact {
         transform: translateY(-50px)
@@ -4165,9 +4190,9 @@ aside {
         margin-left: 30px
     }
 
-    .profile-section .member-profile .profile-item .profile-information .profile-name p {
-        margin-bottom: 0
-    }
+        .profile-section .member-profile .profile-item .profile-information .profile-name p {
+            margin-bottom: 0
+        }
 }
 
 @media(min-width: 1200px) {
@@ -4276,18 +4301,18 @@ aside {
     font-family: "Barlow", sans-serif
 }
 
-.profile-details .profile-nav .nav-tabs .nav-link .item-number:before {
-    position: absolute;
-    content: "";
-    left: -5px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 8.7px 5px 0;
-    border-color: transparent #5138ee transparent transparent
-}
+    .profile-details .profile-nav .nav-tabs .nav-link .item-number:before {
+        position: absolute;
+        content: "";
+        left: -5px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 8.7px 5px 0;
+        border-color: transparent #5138ee transparent transparent
+    }
 
 .profile-details .profile-nav .nav-tabs .nav-link.active {
     color: #5138ee;
@@ -4331,9 +4356,9 @@ aside {
     border: 1px solid rgba(0, 0, 0, .3)
 }
 
-.profile-details .profile-nav .nav-tabs .dropdown ul li .dropdown-item {
-    color: #fff
-}
+    .profile-details .profile-nav .nav-tabs .dropdown ul li .dropdown-item {
+        color: #fff
+    }
 
 .profile-details .tab-content .activity-page .activity-tab .nav .nav-item {
     padding: 10px 5px
@@ -4362,13 +4387,13 @@ aside {
     margin-left: auto
 }
 
-.profile-details .tab-content .activity-page .activity-tab .nav .custom-select select {
-    font-family: "Barlow", sans-serif;
-    color: #fff;
-    outline: none;
-    background-color: #040b29 !important;
-    border: none
-}
+    .profile-details .tab-content .activity-page .activity-tab .nav .custom-select select {
+        font-family: "Barlow", sans-serif;
+        color: #fff;
+        outline: none;
+        background-color: #040b29 !important;
+        border: none
+    }
 
 .info-card .info-card-title {
     padding: 20px 30px;
@@ -4379,9 +4404,9 @@ aside {
     padding: 10px 0
 }
 
-.info-card .info-card-content .info-list li .info-name {
-    width: 40%
-}
+    .info-card .info-card-content .info-list li .info-name {
+        width: 40%
+    }
 
 @media(min-width: 768px) {
     .info-card .info-card-content .info-list li .info-name {
@@ -4411,13 +4436,13 @@ aside {
     row-gap: 10px
 }
 
-.media-wrapper .nav-tp-abs .nav-item .nav-link {
-    outline: none;
-    box-shadow: none;
-    border: none !important;
-    border-bottom: 1px solid transparent !important;
-    padding: .4rem .7rem
-}
+    .media-wrapper .nav-tp-abs .nav-item .nav-link {
+        outline: none;
+        box-shadow: none;
+        border: none !important;
+        border-bottom: 1px solid transparent !important;
+        padding: .4rem .7rem
+    }
 
 @media(min-width: 992px) {
     .media-wrapper .nav-tp-abs .nav-item .nav-link {
@@ -4430,16 +4455,16 @@ aside {
     font-size: 14px
 }
 
-.media-wrapper .nav-tp-abs .nav-item .nav-link span:before {
-    left: -6px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 8.7px 5px 0;
-    border-color: transparent #5138ee transparent transparent
-}
+    .media-wrapper .nav-tp-abs .nav-item .nav-link span:before {
+        left: -6px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 8.7px 5px 0;
+        border-color: transparent #5138ee transparent transparent
+    }
 
 .media-wrapper .nav-tp-abs .nav-item .nav-link:focus,
 .media-wrapper .nav-tp-abs .nav-item .nav-link:hover,
@@ -4474,16 +4499,16 @@ aside {
     font-size: 14px
 }
 
-.media-wrapper .nav-tp-abs .nav-item .nav-link.active span:before {
-    left: -6px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 5px 8.7px 5px 0;
-    border-color: transparent #3d8fff transparent transparent
-}
+    .media-wrapper .nav-tp-abs .nav-item .nav-link.active span:before {
+        left: -6px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 8.7px 5px 0;
+        border-color: transparent #3d8fff transparent transparent
+    }
 
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active:focus,
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active:hover,
@@ -4506,20 +4531,20 @@ aside {
     transition: all .3s ease
 }
 
-.media-wrapper .tab-content .tab-pane .media-content .media-thumb img {
-    border-radius: 5px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .media-wrapper .tab-content .tab-pane .media-content .media-thumb img {
+        border-radius: 5px;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.media-wrapper .tab-content .tab-pane .media-content .media-thumb:hover {
-    box-shadow: 0 0 10px rgba(255, 255, 255, .3)
-}
+    .media-wrapper .tab-content .tab-pane .media-content .media-thumb:hover {
+        box-shadow: 0 0 10px rgba(255, 255, 255, .3)
+    }
 
-.media-wrapper .tab-content .tab-pane .media-content .media-thumb:hover img {
-    transform: scale(1.02)
-}
+        .media-wrapper .tab-content .tab-pane .media-content .media-thumb:hover img {
+            transform: scale(1.02)
+        }
 
 .media-wrapper .tab-content .tab-pane .media-content .album {
     width: max-content;
@@ -4527,43 +4552,43 @@ aside {
     margin: 0 auto
 }
 
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb {
-    height: 170px;
-    width: 170px;
-    box-shadow: 5px solid #fff;
-    z-index: 9;
-    object-fit: cover
-}
+    .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb {
+        height: 170px;
+        width: 170px;
+        box-shadow: 5px solid #fff;
+        z-index: 9;
+        object-fit: cover
+    }
 
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb img {
-    border: 4px solid #fff
-}
+        .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb img {
+            border: 4px solid #fff
+        }
 
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb:before {
-    height: 170px;
-    width: 170px;
-    background: #e0043b;
-    border: 4px solid #fff;
-    z-index: -1;
-    top: 0px;
-    left: -10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
-    transform: rotate(-4deg);
-    -webkit-backface-visibility: hidden
-}
+        .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb:before {
+            height: 170px;
+            width: 170px;
+            background: #e0043b;
+            border: 4px solid #fff;
+            z-index: -1;
+            top: 0px;
+            left: -10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+            transform: rotate(-4deg);
+            -webkit-backface-visibility: hidden
+        }
 
-.media-wrapper .tab-content .tab-pane .media-content .album .album-thumb::after {
-    height: 170px;
-    width: 170px;
-    background: #ffd900;
-    border: 4px solid #fff;
-    z-index: -1;
-    top: 5px;
-    left: 0px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
-    transform: rotate(7deg);
-    -webkit-backface-visibility: hidden
-}
+        .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb::after {
+            height: 170px;
+            width: 170px;
+            background: #ffd900;
+            border: 4px solid #fff;
+            z-index: -1;
+            top: 5px;
+            left: 0px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+            transform: rotate(7deg);
+            -webkit-backface-visibility: hidden
+        }
 
 .h4-title {
     background: #1a203c;
@@ -4577,23 +4602,23 @@ aside {
     line-height: 1.3
 }
 
-.wallet-title p a {
-    color: #5138ee;
-    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1)
-}
+    .wallet-title p a {
+        color: #5138ee;
+        transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1)
+    }
 
-.wallet-title p a:hover {
-    transform: translateX(3px)
-}
+        .wallet-title p a:hover {
+            transform: translateX(3px)
+        }
 
 .wallet-notice {
     font-size: 1.125rem;
     display: inline-flex
 }
 
-.wallet-notice span i {
-    font-size: 20px
-}
+    .wallet-notice span i {
+        font-size: 20px
+    }
 
 @media(min-width: 768px) {
     .wallet-notice {
@@ -4606,32 +4631,32 @@ aside {
     border-radius: 5px
 }
 
-.create-nft .create-nft-form input,
-.create-nft .create-nft-form select,
-.create-nft .create-nft-form textarea {
-    background: #040b29;
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, .1)
-}
+    .create-nft .create-nft-form input,
+    .create-nft .create-nft-form select,
+    .create-nft .create-nft-form textarea {
+        background: #040b29;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, .1)
+    }
 
-.create-nft .create-nft-form input:focus,
-.create-nft .create-nft-form select:focus,
-.create-nft .create-nft-form textarea:focus {
-    box-shadow: none;
-    border-color: rgba(81, 56, 238, .4)
-}
+        .create-nft .create-nft-form input:focus,
+        .create-nft .create-nft-form select:focus,
+        .create-nft .create-nft-form textarea:focus {
+            box-shadow: none;
+            border-color: rgba(81, 56, 238, .4)
+        }
 
-.create-nft .create-nft-form textarea {
-    height: 200px
-}
+    .create-nft .create-nft-form textarea {
+        height: 200px
+    }
 
-.create-nft .upload-item {
-    border: 2px dashed rgba(81, 56, 238, .5);
-    padding: 30px 15px;
-    border-radius: 15px;
-    background: rgba(4, 11, 41, .15);
-    transition: all .3s ease
-}
+    .create-nft .upload-item {
+        border: 2px dashed rgba(81, 56, 238, .5);
+        padding: 30px 15px;
+        border-radius: 15px;
+        background: rgba(4, 11, 41, .15);
+        transition: all .3s ease
+    }
 
 @media(min-width: 768px) {
     .create-nft .upload-item {
@@ -4647,10 +4672,10 @@ aside {
     font-weight: 500
 }
 
-.create-nft .upload-item .custom-upload:hover {
-    background: #3c21ec;
-    transform: translateY(-3px)
-}
+    .create-nft .upload-item .custom-upload:hover {
+        background: #3c21ec;
+        transform: translateY(-3px)
+    }
 
 .create-nft .upload-item:hover {
     background: rgba(4, 11, 41, .5)
@@ -4660,20 +4685,20 @@ aside {
     gap: 10px
 }
 
-.create-nft .item-category-field .item-cat-list .item-cat-btn {
-    background: #040b29;
-    border: 1px solid rgba(255, 255, 255, .1);
-    padding: .5rem 1rem;
-    border-radius: 5px;
-    transition: all .3s ease;
-    font-weight: 600
-}
+    .create-nft .item-category-field .item-cat-list .item-cat-btn {
+        background: #040b29;
+        border: 1px solid rgba(255, 255, 255, .1);
+        padding: .5rem 1rem;
+        border-radius: 5px;
+        transition: all .3s ease;
+        font-weight: 600
+    }
 
-.create-nft .item-category-field .item-cat-list .item-cat-btn.active,
-.create-nft .item-category-field .item-cat-list .item-cat-btn:hover {
-    background: #5138ee;
-    border-color: transparent
-}
+        .create-nft .item-category-field .item-cat-list .item-cat-btn.active,
+        .create-nft .item-category-field .item-cat-list .item-cat-btn:hover {
+            background: #5138ee;
+            border-color: transparent
+        }
 
 .create-nft .submit-btn-field button {
     background: #5138ee;
@@ -4685,13 +4710,13 @@ aside {
     transition: all .3s ease
 }
 
-.create-nft .submit-btn-field button:hover {
-    background: #3114e9
-}
+    .create-nft .submit-btn-field button:hover {
+        background: #3114e9
+    }
 
-.form-floating>.form-control:focus~label,
-.form-floating>.form-control:not(:placeholder-shown)~label,
-.form-floating>.form-select~label {
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
     color: #5138ee;
     opacity: .8
 }
@@ -4700,15 +4725,15 @@ aside {
     padding: 0 60px
 }
 
-.load-btn .lab-btn i {
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .load-btn .lab-btn i {
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.load-btn .lab-btn:hover i {
-    animation: rotate-2 3s linear infinite
-}
+    .load-btn .lab-btn:hover i {
+        animation: rotate-2 3s linear infinite
+    }
 
 .crypto-page {
     background-color: rgba(255, 255, 255, .3);
@@ -4716,14 +4741,14 @@ aside {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, .07)
 }
 
-.crypto-page #cryptoLink {
-    font-size: 1rem;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-    border: 1px solid transparent;
-    max-width: 145px
-}
+    .crypto-page #cryptoLink {
+        font-size: 1rem;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        border: 1px solid transparent;
+        max-width: 145px
+    }
 
 @media(max-width: 575px) {
     .crypto-page #cryptoLink {
@@ -4744,41 +4769,41 @@ aside {
     border-radius: 5px
 }
 
-.crypto-page #cryptoCopy i {
-    display: block;
-    line-height: 30px;
-    position: relative
-}
+    .crypto-page #cryptoCopy i {
+        display: block;
+        line-height: 30px;
+        position: relative
+    }
 
-.crypto-page #cryptoCopy i::before {
-    display: block;
-    width: 15px;
-    margin: 0 auto
-}
+        .crypto-page #cryptoCopy i::before {
+            display: block;
+            width: 15px;
+            margin: 0 auto
+        }
 
-.crypto-page #cryptoCopy i.copied::after {
-    position: absolute;
-    top: 0px;
-    right: 35px;
-    height: 30px;
-    line-height: 25px;
-    display: block;
-    content: "copied";
-    font-size: 1rem;
-    padding: 2px 10px;
-    color: #fff;
-    background-color: #5138ee;
-    border-radius: 3px;
-    opacity: 1;
-    will-change: opacity, transform;
-    animation: showcopied 1.5s ease
-}
+        .crypto-page #cryptoCopy i.copied::after {
+            position: absolute;
+            top: 0px;
+            right: 35px;
+            height: 30px;
+            line-height: 25px;
+            display: block;
+            content: "copied";
+            font-size: 1rem;
+            padding: 2px 10px;
+            color: #fff;
+            background-color: #5138ee;
+            border-radius: 3px;
+            opacity: 1;
+            will-change: opacity, transform;
+            animation: showcopied 1.5s ease
+        }
 
-.crypto-page #cryptoCopy:hover {
-    cursor: pointer;
-    background-color: #3c21ec;
-    transition: background-color .3s ease-in
-}
+    .crypto-page #cryptoCopy:hover {
+        cursor: pointer;
+        background-color: #3c21ec;
+        transition: background-color .3s ease-in
+    }
 
 @keyframes showcopied {
     0% {
@@ -4811,38 +4836,38 @@ aside {
     border-radius: 10px
 }
 
-.item-desc-part .item-desc-content .nav-tabs {
-    background: #1a203c;
-    border-bottom: none;
-    padding-block: 5px
-}
+    .item-desc-part .item-desc-content .nav-tabs {
+        background: #1a203c;
+        border-bottom: none;
+        padding-block: 5px
+    }
 
-.item-desc-part .item-desc-content .nav-tabs .nav-link {
-    border: 0;
-    outline: none;
-    box-shadow: none;
-    color: #fff;
-    font-weight: 500
-}
+        .item-desc-part .item-desc-content .nav-tabs .nav-link {
+            border: 0;
+            outline: none;
+            box-shadow: none;
+            color: #fff;
+            font-weight: 500
+        }
 
-.item-desc-part .item-desc-content .nav-tabs .nav-link.active {
-    background: transparent;
-    color: #5138ee
-}
+            .item-desc-part .item-desc-content .nav-tabs .nav-link.active {
+                background: transparent;
+                color: #5138ee
+            }
 
-.item-desc-part .item-desc-content .nav-tabs .nav-link.active:after {
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 8px 10px 8px;
-    border-color: transparent transparent #040b29 transparent
-}
+                .item-desc-part .item-desc-content .nav-tabs .nav-link.active:after {
+                    bottom: -5px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 0 8px 10px 8px;
+                    border-color: transparent transparent #040b29 transparent
+                }
 
 @media(min-width: 992px) {
-    .item-desc-part .item-desc-content .details-tab>p {
+    .item-desc-part .item-desc-content .details-tab > p {
         max-width: 95%
     }
 }
@@ -4852,10 +4877,10 @@ aside {
     height: 60px
 }
 
-.item-desc-part .item-desc-content .details-tab .author-p-thumb img {
-    border-radius: 50%;
-    border: 2px solid #030010
-}
+    .item-desc-part .item-desc-content .details-tab .author-p-thumb img {
+        border-radius: 50%;
+        border: 2px solid #030010
+    }
 
 .item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title {
     width: 30%
@@ -4910,18 +4935,18 @@ aside {
     border-left: 1px dashed #5138ee
 }
 
-.item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item::before {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #5138ee;
-    left: -25px;
-    top: 5px
-}
+    .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item::before {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #5138ee;
+        left: -25px;
+        top: 5px
+    }
 
-.item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item time {
-    font-size: 14px
-}
+    .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item time {
+        font-size: 14px
+    }
 
 .item-buy-part {
     position: sticky;
@@ -4940,9 +4965,9 @@ aside {
     text-align: right
 }
 
-.nft-item-title .share-btn .dropdown-toggle i {
-    font-size: calc(1.3125rem + 0.75vw)
-}
+    .nft-item-title .share-btn .dropdown-toggle i {
+        font-size: calc(1.3125rem + 0.75vw)
+    }
 
 @media(min-width: 1200px) {
     .nft-item-title .share-btn .dropdown-toggle i {
@@ -4958,28 +4983,27 @@ aside {
     color: #040b29
 }
 
-.nft-item-title .share-btn .dropdown-item:hover {
-    color: #5138ee;
-    background: transparent
-}
+    .nft-item-title .share-btn .dropdown-item:hover {
+        color: #5138ee;
+        background: transparent
+    }
 
 .item-details-countdown .item-countdown-list {
     gap: 15px
 }
 
-.item-details-countdown .item-countdown-list li .days,
-.item-details-countdown .item-countdown-list li .hours,
-.item-details-countdown .item-countdown-list li .minutes,
-.item-details-countdown .item-countdown-list li .seconds {
-    font-size: calc(1.275rem + 0.3vw);
-    font-weight: 600;
-    background: #040b29;
-    padding: 10px 20px;
-    border-radius: 5px
-}
+    .item-details-countdown .item-countdown-list li .days,
+    .item-details-countdown .item-countdown-list li .hours,
+    .item-details-countdown .item-countdown-list li .minutes,
+    .item-details-countdown .item-countdown-list li .seconds {
+        font-size: calc(1.275rem + 0.3vw);
+        font-weight: 600;
+        background: #040b29;
+        padding: 10px 20px;
+        border-radius: 5px
+    }
 
 @media(min-width: 1200px) {
-
     .item-details-countdown .item-countdown-list li .days,
     .item-details-countdown .item-countdown-list li .hours,
     .item-details-countdown .item-countdown-list li .minutes,
@@ -5007,14 +5031,14 @@ aside {
     gap: 30px
 }
 
-.buying-btns .default-btn {
-    border-radius: 5px
-}
+    .buying-btns .default-btn {
+        border-radius: 5px
+    }
 
-.buying-btns .default-btn:last-child {
-    background: transparent;
-    border: 2px solid #fff
-}
+        .buying-btns .default-btn:last-child {
+            background: transparent;
+            border: 2px solid #fff
+        }
 
 .account-wrapper {
     border-radius: 10px;
@@ -5022,21 +5046,21 @@ aside {
     margin: 0 auto
 }
 
-.account-wrapper .title {
-    text-transform: capitalize
-}
+    .account-wrapper .title {
+        text-transform: capitalize
+    }
 
-.account-wrapper .cate {
-    font-style: normal
-}
+    .account-wrapper .cate {
+        font-style: normal
+    }
 
-.account-wrapper .cate a {
-    font-weight: 600
-}
+        .account-wrapper .cate a {
+            font-weight: 600
+        }
 
-.account-wrapper .cate a:hover {
-    color: #5138ee
-}
+            .account-wrapper .cate a:hover {
+                color: #5138ee
+            }
 
 @media(min-width: 576px) {
     .account-bottom .subtitle {
@@ -5051,31 +5075,31 @@ aside {
     border-radius: 50%
 }
 
-.account-bottom .social-media li a.facebook {
-    background: #3b5998
-}
+    .account-bottom .social-media li a.facebook {
+        background: #3b5998
+    }
 
-.account-bottom .social-media li a.twitter {
-    background: #55acee
-}
+    .account-bottom .social-media li a.twitter {
+        background: #55acee
+    }
 
-.account-bottom .social-media li a.linkedin {
-    background: #007bb5
-}
+    .account-bottom .social-media li a.linkedin {
+        background: #007bb5
+    }
 
-.account-bottom .social-media li a.instagram {
-    background: #e4405f
-}
+    .account-bottom .social-media li a.instagram {
+        background: #e4405f
+    }
 
-.account-bottom .social-media li a.pinterest {
-    background: #c8232c
-}
+    .account-bottom .social-media li a.pinterest {
+        background: #c8232c
+    }
 
-.account-bottom .social-media li a:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
-    color: #fff
-}
+    .account-bottom .social-media li a:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+        color: #fff
+    }
 
 .account-form .form-group input {
     border: 1px solid rgba(81, 56, 238, .3);
@@ -5092,10 +5116,10 @@ aside {
     flex-wrap: nowrap
 }
 
-.account-form .form-group .checkgroup input[type=checkbox] {
-    width: 18px;
-    height: 18px
-}
+    .account-form .form-group .checkgroup input[type=checkbox] {
+        width: 18px;
+        height: 18px
+    }
 
 @media(max-width: 575px) {
     .account-form .form-group .checkgroup input[type=checkbox] {
@@ -5147,11 +5171,11 @@ aside {
     color: #fff
 }
 
-.account-form .form-floating input:focus {
-    border-color: rgba(81, 56, 238, .3);
-    outline: none;
-    box-shadow: none
-}
+    .account-form .form-floating input:focus {
+        border-color: rgba(81, 56, 238, .3);
+        outline: none;
+        box-shadow: none
+    }
 
 .or {
     display: block;
@@ -5168,29 +5192,29 @@ aside {
     color: #fff
 }
 
-.or span {
-    z-index: 1
-}
+    .or span {
+        z-index: 1
+    }
 
-.or::before,
-.or::after {
-    top: 50%;
-    left: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    background: rgba(81, 56, 238, .3);
-    animation: pulse 2.5s linear infinite;
-    -webkit-animation: pulse 2.5s linear infinite;
-    -moz-animation: pulse 2.5s linear infinite;
-    opacity: 0
-}
+    .or::before,
+    .or::after {
+        top: 50%;
+        left: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background: rgba(81, 56, 238, .3);
+        animation: pulse 2.5s linear infinite;
+        -webkit-animation: pulse 2.5s linear infinite;
+        -moz-animation: pulse 2.5s linear infinite;
+        opacity: 0
+    }
 
-.or::before {
-    animation-delay: 1.5s;
-    -webkit-animation-delay: 1.5s;
-    -moz-animation-delay: 1.5s
-}
+    .or::before {
+        animation-delay: 1.5s;
+        -webkit-animation-delay: 1.5s;
+        -moz-animation-delay: 1.5s
+    }
 
 @keyframes pulse {
     0% {
@@ -5665,8 +5689,7 @@ lesshat-selector {
         -webkit-transform: rotateX(80deg)
     }
 
-    4%,
-    20% {
+    4%, 20% {
         -webkit-transform: rotateX(0deg)
     }
 
@@ -5674,8 +5697,7 @@ lesshat-selector {
         -webkit-transform: rotateX(80deg)
     }
 
-    24%,
-    30% {
+    24%, 30% {
         -webkit-transform: rotateX(0deg)
     }
 
@@ -5683,8 +5705,7 @@ lesshat-selector {
         -webkit-transform: rotateX(80deg)
     }
 
-    34%,
-    70% {
+    34%, 70% {
         -webkit-transform: rotateX(0deg)
     }
 
@@ -5692,8 +5713,7 @@ lesshat-selector {
         -webkit-transform: rotateX(80deg)
     }
 
-    74%,
-    100% {
+    74%, 100% {
         -webkit-transform: rotateX(0deg)
     }
 }
@@ -5707,8 +5727,7 @@ lesshat-selector {
         -moz-transform: rotateX(80deg)
     }
 
-    4%,
-    20% {
+    4%, 20% {
         -moz-transform: rotateX(0deg)
     }
 
@@ -5716,8 +5735,7 @@ lesshat-selector {
         -moz-transform: rotateX(80deg)
     }
 
-    24%,
-    30% {
+    24%, 30% {
         -moz-transform: rotateX(0deg)
     }
 
@@ -5725,8 +5743,7 @@ lesshat-selector {
         -moz-transform: rotateX(80deg)
     }
 
-    34%,
-    70% {
+    34%, 70% {
         -moz-transform: rotateX(0deg)
     }
 
@@ -5734,8 +5751,7 @@ lesshat-selector {
         -moz-transform: rotateX(80deg)
     }
 
-    74%,
-    100% {
+    74%, 100% {
         -moz-transform: rotateX(0deg)
     }
 }
@@ -5749,8 +5765,7 @@ lesshat-selector {
         -o-transform: rotateX(80deg)
     }
 
-    4%,
-    20% {
+    4%, 20% {
         -o-transform: rotateX(0deg)
     }
 
@@ -5758,8 +5773,7 @@ lesshat-selector {
         -o-transform: rotateX(80deg)
     }
 
-    24%,
-    30% {
+    24%, 30% {
         -o-transform: rotateX(0deg)
     }
 
@@ -5767,8 +5781,7 @@ lesshat-selector {
         -o-transform: rotateX(80deg)
     }
 
-    34%,
-    70% {
+    34%, 70% {
         -o-transform: rotateX(0deg)
     }
 
@@ -5776,8 +5789,7 @@ lesshat-selector {
         -o-transform: rotateX(80deg)
     }
 
-    74%,
-    100% {
+    74%, 100% {
         -o-transform: rotateX(0deg)
     }
 }
@@ -5797,8 +5809,7 @@ lesshat-selector {
         transform: rotateX(80deg)
     }
 
-    4%,
-    20% {
+    4%, 20% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
         -ms-transform: rotateX(0deg);
@@ -5812,8 +5823,7 @@ lesshat-selector {
         transform: rotateX(80deg)
     }
 
-    24%,
-    30% {
+    24%, 30% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
         -ms-transform: rotateX(0deg);
@@ -5827,8 +5837,7 @@ lesshat-selector {
         transform: rotateX(80deg)
     }
 
-    34%,
-    70% {
+    34%, 70% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
         -ms-transform: rotateX(0deg);
@@ -5842,8 +5851,7 @@ lesshat-selector {
         transform: rotateX(80deg)
     }
 
-    74%,
-    100% {
+    74%, 100% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
         -ms-transform: rotateX(0deg);
@@ -5868,8 +5876,7 @@ lesshat-selector {
         -webkit-transform: rotateX(80deg)
     }
 
-    4%,
-    30% {
+    4%, 30% {
         -webkit-transform: rotateX(0deg)
     }
 
@@ -5877,8 +5884,7 @@ lesshat-selector {
         -webkit-transform: rotateX(80deg)
     }
 
-    34%,
-    50% {
+    34%, 50% {
         -webkit-transform: rotateX(0deg)
     }
 
@@ -5886,8 +5892,7 @@ lesshat-selector {
         -webkit-transform: rotateX(80deg)
     }
 
-    54%,
-    100% {
+    54%, 100% {
         -webkit-transform: rotateX(0deg)
     }
 }
@@ -5901,8 +5906,7 @@ lesshat-selector {
         -moz-transform: rotateX(80deg)
     }
 
-    4%,
-    30% {
+    4%, 30% {
         -moz-transform: rotateX(0deg)
     }
 
@@ -5910,8 +5914,7 @@ lesshat-selector {
         -moz-transform: rotateX(80deg)
     }
 
-    34%,
-    50% {
+    34%, 50% {
         -moz-transform: rotateX(0deg)
     }
 
@@ -5919,8 +5922,7 @@ lesshat-selector {
         -moz-transform: rotateX(80deg)
     }
 
-    54%,
-    100% {
+    54%, 100% {
         -moz-transform: rotateX(0deg)
     }
 }
@@ -5934,8 +5936,7 @@ lesshat-selector {
         -o-transform: rotateX(80deg)
     }
 
-    4%,
-    30% {
+    4%, 30% {
         -o-transform: rotateX(0deg)
     }
 
@@ -5943,8 +5944,7 @@ lesshat-selector {
         -o-transform: rotateX(80deg)
     }
 
-    34%,
-    50% {
+    34%, 50% {
         -o-transform: rotateX(0deg)
     }
 
@@ -5952,8 +5952,7 @@ lesshat-selector {
         -o-transform: rotateX(80deg)
     }
 
-    54%,
-    100% {
+    54%, 100% {
         -o-transform: rotateX(0deg)
     }
 }
@@ -5973,8 +5972,7 @@ lesshat-selector {
         transform: rotateX(80deg)
     }
 
-    4%,
-    30% {
+    4%, 30% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
         -ms-transform: rotateX(0deg);
@@ -5988,8 +5986,7 @@ lesshat-selector {
         transform: rotateX(80deg)
     }
 
-    34%,
-    50% {
+    34%, 50% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
         -ms-transform: rotateX(0deg);
@@ -6003,8 +6000,7 @@ lesshat-selector {
         transform: rotateX(80deg)
     }
 
-    54%,
-    100% {
+    54%, 100% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
         -ms-transform: rotateX(0deg);
@@ -6061,8 +6057,7 @@ lesshat-selector {
         -webkit-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    30%,
-    100% {
+    30%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
@@ -6076,8 +6071,7 @@ lesshat-selector {
         -moz-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    30%,
-    100% {
+    30%, 100% {
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
@@ -6091,8 +6085,7 @@ lesshat-selector {
         -o-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    30%,
-    100% {
+    30%, 100% {
         -o-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
@@ -6112,8 +6105,7 @@ lesshat-selector {
         transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    30%,
-    100% {
+    30%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -ms-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
@@ -6130,9 +6122,7 @@ lesshat-selector {
 }
 
 @-webkit-keyframes star2 {
-
-    0%,
-    15% {
+    0%, 15% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6140,16 +6130,13 @@ lesshat-selector {
         -webkit-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    45%,
-    100% {
+    45%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @-moz-keyframes star2 {
-
-    0%,
-    15% {
+    0%, 15% {
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6157,16 +6144,13 @@ lesshat-selector {
         -moz-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    45%,
-    100% {
+    45%, 100% {
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @-o-keyframes star2 {
-
-    0%,
-    15% {
+    0%, 15% {
         -o-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6174,16 +6158,13 @@ lesshat-selector {
         -o-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    45%,
-    100% {
+    45%, 100% {
         -o-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @keyframes star2 {
-
-    0%,
-    15% {
+    0%, 15% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
         -ms-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
@@ -6197,8 +6178,7 @@ lesshat-selector {
         transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    45%,
-    100% {
+    45%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -ms-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
@@ -6215,9 +6195,7 @@ lesshat-selector {
 }
 
 @-webkit-keyframes star3 {
-
-    0%,
-    30% {
+    0%, 30% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6225,16 +6203,13 @@ lesshat-selector {
         -webkit-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    60%,
-    100% {
+    60%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @-moz-keyframes star3 {
-
-    0%,
-    30% {
+    0%, 30% {
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6242,16 +6217,13 @@ lesshat-selector {
         -moz-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    60%,
-    100% {
+    60%, 100% {
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @-o-keyframes star3 {
-
-    0%,
-    30% {
+    0%, 30% {
         -o-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6259,16 +6231,13 @@ lesshat-selector {
         -o-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    60%,
-    100% {
+    60%, 100% {
         -o-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @keyframes star3 {
-
-    0%,
-    30% {
+    0%, 30% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
         -ms-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
@@ -6282,8 +6251,7 @@ lesshat-selector {
         transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    60%,
-    100% {
+    60%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -ms-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
@@ -6300,9 +6268,7 @@ lesshat-selector {
 }
 
 @-webkit-keyframes star4 {
-
-    0%,
-    45% {
+    0%, 45% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6310,16 +6276,13 @@ lesshat-selector {
         -webkit-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    75%,
-    100% {
+    75%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @-moz-keyframes star4 {
-
-    0%,
-    45% {
+    0%, 45% {
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6327,16 +6290,13 @@ lesshat-selector {
         -moz-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    75%,
-    100% {
+    75%, 100% {
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @-o-keyframes star4 {
-
-    0%,
-    45% {
+    0%, 45% {
         -o-transform: scale(0.5) skewX(15deg) rotateZ(0deg)
     }
 
@@ -6344,16 +6304,13 @@ lesshat-selector {
         -o-transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    75%,
-    100% {
+    75%, 100% {
         -o-transform: scale(0.5) skewX(15deg) rotateZ(720deg)
     }
 }
 
 @keyframes star4 {
-
-    0%,
-    45% {
+    0%, 45% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
         -ms-transform: scale(0.5) skewX(15deg) rotateZ(0deg);
@@ -6367,8 +6324,7 @@ lesshat-selector {
         transform: scale(1) skewX(0deg) rotateZ(360deg)
     }
 
-    75%,
-    100% {
+    75%, 100% {
         -webkit-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -moz-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
         -ms-transform: scale(0.5) skewX(15deg) rotateZ(720deg);
@@ -6393,8 +6349,7 @@ lesshat-selector {
         opacity: 1
     }
 
-    30%,
-    100% {
+    30%, 100% {
         opacity: 0
     }
 }
@@ -6408,8 +6363,7 @@ lesshat-selector {
         opacity: 1
     }
 
-    30%,
-    100% {
+    30%, 100% {
         opacity: 0
     }
 }
@@ -6423,8 +6377,7 @@ lesshat-selector {
         opacity: 1
     }
 
-    30%,
-    100% {
+    30%, 100% {
         opacity: 0
     }
 }
@@ -6438,8 +6391,7 @@ lesshat-selector {
         opacity: 1
     }
 
-    30%,
-    100% {
+    30%, 100% {
         opacity: 0
     }
 }
@@ -6453,9 +6405,7 @@ lesshat-selector {
 }
 
 @-webkit-keyframes star2-fade {
-
-    0%,
-    15% {
+    0%, 15% {
         opacity: 0
     }
 
@@ -6463,16 +6413,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    45%,
-    100% {
+    45%, 100% {
         opacity: 0
     }
 }
 
 @-moz-keyframes star2-fade {
-
-    0%,
-    15% {
+    0%, 15% {
         opacity: 0
     }
 
@@ -6480,16 +6427,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    45%,
-    100% {
+    45%, 100% {
         opacity: 0
     }
 }
 
 @-o-keyframes star2-fade {
-
-    0%,
-    15% {
+    0%, 15% {
         opacity: 0
     }
 
@@ -6497,16 +6441,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    45%,
-    100% {
+    45%, 100% {
         opacity: 0
     }
 }
 
 @keyframes star2-fade {
-
-    0%,
-    15% {
+    0%, 15% {
         opacity: 0
     }
 
@@ -6514,8 +6455,7 @@ lesshat-selector {
         opacity: 1
     }
 
-    45%,
-    100% {
+    45%, 100% {
         opacity: 0
     }
 }
@@ -6529,9 +6469,7 @@ lesshat-selector {
 }
 
 @-webkit-keyframes star3-fade {
-
-    0%,
-    30% {
+    0%, 30% {
         opacity: 0
     }
 
@@ -6539,16 +6477,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    60%,
-    100% {
+    60%, 100% {
         opacity: 0
     }
 }
 
 @-moz-keyframes star3-fade {
-
-    0%,
-    30% {
+    0%, 30% {
         opacity: 0
     }
 
@@ -6556,16 +6491,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    60%,
-    100% {
+    60%, 100% {
         opacity: 0
     }
 }
 
 @-o-keyframes star3-fade {
-
-    0%,
-    30% {
+    0%, 30% {
         opacity: 0
     }
 
@@ -6573,16 +6505,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    60%,
-    100% {
+    60%, 100% {
         opacity: 0
     }
 }
 
 @keyframes star3-fade {
-
-    0%,
-    30% {
+    0%, 30% {
         opacity: 0
     }
 
@@ -6590,8 +6519,7 @@ lesshat-selector {
         opacity: 1
     }
 
-    60%,
-    100% {
+    60%, 100% {
         opacity: 0
     }
 }
@@ -6605,9 +6533,7 @@ lesshat-selector {
 }
 
 @-webkit-keyframes star4-fade {
-
-    0%,
-    45% {
+    0%, 45% {
         opacity: 0
     }
 
@@ -6615,16 +6541,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    75%,
-    100% {
+    75%, 100% {
         opacity: 0
     }
 }
 
 @-moz-keyframes star4-fade {
-
-    0%,
-    45% {
+    0%, 45% {
         opacity: 0
     }
 
@@ -6632,16 +6555,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    75%,
-    100% {
+    75%, 100% {
         opacity: 0
     }
 }
 
 @-o-keyframes star4-fade {
-
-    0%,
-    45% {
+    0%, 45% {
         opacity: 0
     }
 
@@ -6649,16 +6569,13 @@ lesshat-selector {
         opacity: 1
     }
 
-    75%,
-    100% {
+    75%, 100% {
         opacity: 0
     }
 }
 
 @keyframes star4-fade {
-
-    0%,
-    45% {
+    0%, 45% {
         opacity: 0
     }
 
@@ -6666,8 +6583,7 @@ lesshat-selector {
         opacity: 1
     }
 
-    75%,
-    100% {
+    75%, 100% {
         opacity: 0
     }
 }
@@ -6697,9 +6613,7 @@ lesshat-selector {
 }
 
 @-webkit-keyframes sword {
-
-    0%,
-    15% {
+    0%, 15% {
         -webkit-transform: rotate(-40deg)
     }
 
@@ -6713,9 +6627,7 @@ lesshat-selector {
 }
 
 @-moz-keyframes sword {
-
-    0%,
-    15% {
+    0%, 15% {
         -moz-transform: rotate(-40deg)
     }
 
@@ -6729,9 +6641,7 @@ lesshat-selector {
 }
 
 @-o-keyframes sword {
-
-    0%,
-    15% {
+    0%, 15% {
         -o-transform: rotate(-40deg)
     }
 
@@ -6745,9 +6655,7 @@ lesshat-selector {
 }
 
 @keyframes sword {
-
-    0%,
-    15% {
+    0%, 15% {
         -webkit-transform: rotate(-40deg);
         -moz-transform: rotate(-40deg);
         -ms-transform: rotate(-40deg);
@@ -6964,27 +6872,27 @@ lesshat-selector {
     transform: translate(-50%, -50%)
 }
 
-.coming-wrapper .event-count {
-    gap: 10px
-}
+    .coming-wrapper .event-count {
+        gap: 10px
+    }
 
-.coming-wrapper .event-count .rounded-circle {
-    border: 2px solid #5138ee;
-    height: 80px;
-    width: 80px;
-    flex-direction: column;
-    justify-content: center
-}
+        .coming-wrapper .event-count .rounded-circle {
+            border: 2px solid #5138ee;
+            height: 80px;
+            width: 80px;
+            flex-direction: column;
+            justify-content: center
+        }
 
-.coming-wrapper .event-count .rounded-circle span {
-    font-size: 24px;
-    font-family: "Barlow", sans-serif;
-    line-height: 1
-}
+            .coming-wrapper .event-count .rounded-circle span {
+                font-size: 24px;
+                font-family: "Barlow", sans-serif;
+                line-height: 1
+            }
 
-.coming-wrapper h1 {
-    font-size: 40px
-}
+    .coming-wrapper h1 {
+        font-size: 40px
+    }
 
 @media(min-width: 768px) {
     .coming-wrapper h1 {
@@ -7015,84 +6923,84 @@ lesshat-selector {
     padding: 35px 30px 5px 30px
 }
 
-.blog-section .post-item-inner .post-content .meta {
-    font-size: 16px;
-    color: #5138ee
-}
+    .blog-section .post-item-inner .post-content .meta {
+        font-size: 16px;
+        color: #5138ee
+    }
 
-.blog-section .post-item-inner .post-content .meta a {
-    font-weight: 500;
-    color: #5138ee
-}
+        .blog-section .post-item-inner .post-content .meta a {
+            font-weight: 500;
+            color: #5138ee
+        }
 
-.blog-section .post-item-inner .post-content h4>a {
-    margin-bottom: 2px;
-    color: #fff;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .blog-section .post-item-inner .post-content h4 > a {
+        margin-bottom: 2px;
+        color: #fff;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
 .blog-section .post-item-inner .blog-footer {
     padding: 17px 30px;
     border-top: 1px solid #040b29
 }
 
-.blog-section .post-item-inner .blog-footer .viewall {
-    color: #fff;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .blog-section .post-item-inner .blog-footer .viewall {
+        color: #fff;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.blog-section .post-item-inner .blog-footer .blog-comment {
-    font-size: 16px;
-    color: #fff
-}
+    .blog-section .post-item-inner .blog-footer .blog-comment {
+        font-size: 16px;
+        color: #fff
+    }
 
-.blog-section .post-item-inner .blog-footer .blog-comment:hover {
-    color: #5138ee
-}
+        .blog-section .post-item-inner .blog-footer .blog-comment:hover {
+            color: #5138ee
+        }
 
 .blog-section .post-item-inner:hover {
     box-shadow: 0px 15px 10px 0px rgba(136, 136, 136, .1)
 }
 
-.blog-section .post-item-inner:hover h4>a {
-    color: #5138ee
-}
+    .blog-section .post-item-inner:hover h4 > a {
+        color: #5138ee
+    }
 
-.blog-section .post-item-inner:hover .viewall {
-    color: #5138ee
-}
+    .blog-section .post-item-inner:hover .viewall {
+        color: #5138ee
+    }
 
-.blog-section .post-item-inner:hover .post-thumb a img {
-    transform: scale(1.07)
-}
+    .blog-section .post-item-inner:hover .post-thumb a img {
+        transform: scale(1.07)
+    }
 
 .blog-section .main-blog .blog-wrapper .post-item .post-item-inner {
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .1)
 }
 
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner:hover .post-content h3 a {
-    color: #5138ee
-}
+    .blog-section .main-blog .blog-wrapper .post-item .post-item-inner:hover .post-content h3 a {
+        color: #5138ee
+    }
 
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content h3 a {
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content h3 a {
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote {
-    padding: 35px
-}
+    .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote {
+        padding: 35px
+    }
 
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p {
-    margin-bottom: 0 !important;
-    color: #fff;
-    padding-top: 50px
-}
+        .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p {
+            margin-bottom: 0 !important;
+            color: #fff;
+            padding-top: 50px
+        }
 
 @media(min-width: 768px) {
     .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p {
@@ -7216,114 +7124,114 @@ lesshat-selector {
     padding: 40px
 }
 
-.blog-section .main-blog .blog-wrapper .post-item.code-post .post-item-inner .post-thumb .code-content p {
-    color: #fff;
-    font-style: italic;
-    line-height: 30px
-}
+    .blog-section .main-blog .blog-wrapper .post-item.code-post .post-item-inner .post-thumb .code-content p {
+        color: #fff;
+        font-style: italic;
+        line-height: 30px
+    }
 
 .blog-section .main-blog .blog-wrapper .post-item .tags-section {
     padding: 15px 30px;
     border-top: 1px solid #040b29
 }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li {
-    padding: 5px 0
-}
+    .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li {
+        padding: 5px 0
+    }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span {
-    padding: 10px 15px;
-    color: #fff
-}
+        .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span {
+            padding: 10px 15px;
+            color: #fff
+        }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span::after {
-    top: 50%;
-    right: 0;
-    transform: rotate(45deg) translateY(-50%);
-    width: 15px;
-    height: 15px
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span::after {
+                top: 50%;
+                right: 0;
+                transform: rotate(45deg) translateY(-50%);
+                width: 15px;
+                height: 15px
+            }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span i {
-    transform: rotate(90deg)
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span i {
+                transform: rotate(90deg)
+            }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li a {
-    outline: none;
-    margin: 0 3px;
-    border: 1px solid #040b29;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease;
-    border-radius: 3px
-}
+        .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li a {
+            outline: none;
+            margin: 0 3px;
+            border: 1px solid #040b29;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            transition: all .3s ease;
+            border-radius: 3px
+        }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li a:hover {
-    color: #fff
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li a:hover {
+                color: #fff
+            }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li {
-    padding: 5px 0
-}
+    .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li {
+        padding: 5px 0
+    }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a {
-    background-color: #5138ee;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    border-radius: 3px
-}
+        .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a {
+            background-color: #5138ee;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            border-radius: 3px
+        }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.facebook {
-    background: #3b5998
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.facebook {
+                background: #3b5998
+            }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.dribble {
-    background: #ea4c89
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.dribble {
+                background: #ea4c89
+            }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.twitter {
-    background: #55acee
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.twitter {
+                background: #55acee
+            }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.linkedin {
-    background: #007bb5
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a.linkedin {
+                background: #007bb5
+            }
 
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a:hover {
-    border-radius: 50%;
-    color: #fff
-}
+            .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a:hover {
+                border-radius: 50%;
+                color: #fff
+            }
 
 .comments {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
     border-radius: 3px
 }
 
-.comments .widget-title h3 {
-    border-bottom: 1px solid #040b29;
-    padding: 20px 30px
-}
+    .comments .widget-title h3 {
+        border-bottom: 1px solid #040b29;
+        padding: 20px 30px
+    }
 
-.comments .comment-list {
-    padding: 10px 30px
-}
+    .comments .comment-list {
+        padding: 10px 30px
+    }
 
-.comments .comment-list .comment {
-    padding: 20px 0px
-}
+        .comments .comment-list .comment {
+            padding: 20px 0px
+        }
 
-.comments .comment-list .comment .com-image {
-    height: 69px;
-    width: 69px;
-    border: 2px solid #030010;
-    border-radius: 50%;
-    float: left
-}
+            .comments .comment-list .comment .com-image {
+                height: 69px;
+                width: 69px;
+                border: 2px solid #030010;
+                border-radius: 50%;
+                float: left
+            }
 
 @media(min-width: 576px) {
     .comments .comment-list .comment .com-image {
@@ -7350,19 +7258,19 @@ lesshat-selector {
     display: flex
 }
 
-.comments .comment-list .comment .com-content .com-title .com-title-meta h4 a {
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    transition: all .3s ease
-}
+    .comments .comment-list .comment .com-content .com-title .com-title-meta h4 a {
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease
+    }
 
-.comments .comment-list .comment .com-content .com-title .com-title-meta h4 a:hover {
-    color: #5138ee
-}
+        .comments .comment-list .comment .com-content .com-title .com-title-meta h4 a:hover {
+            color: #5138ee
+        }
 
-.comments .comment-list .comment .com-content .com-title .reply a {
-    color: #5138ee
-}
+    .comments .comment-list .comment .com-content .com-title .reply a {
+        color: #5138ee
+    }
 
 @media(min-width: 576px) {
     .comments .comment-list .comment .comment-list {
@@ -7375,42 +7283,42 @@ lesshat-selector {
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.06))
 }
 
-.comment-respond h3 {
-    border-bottom: 1px solid #040b29;
-    padding: 20px 30px
-}
+    .comment-respond h3 {
+        border-bottom: 1px solid #040b29;
+        padding: 20px 30px
+    }
 
-.comment-respond .add-comment .comment-form {
-    justify-content: space-between
-}
+    .comment-respond .add-comment .comment-form {
+        justify-content: space-between
+    }
 
-.comment-respond .add-comment .comment-form input,
-.comment-respond .add-comment .comment-form textarea {
-    color: #fff;
-    background: #040b29;
-    border: 1px solid rgba(255, 255, 255, .1);
-    outline: none;
-    box-shadow: none
-}
+        .comment-respond .add-comment .comment-form input,
+        .comment-respond .add-comment .comment-form textarea {
+            color: #fff;
+            background: #040b29;
+            border: 1px solid rgba(255, 255, 255, .1);
+            outline: none;
+            box-shadow: none
+        }
 
-.comment-respond .add-comment .comment-form input:focus,
-.comment-respond .add-comment .comment-form textarea:focus {
-    border-color: rgba(81, 56, 238, .3)
-}
+            .comment-respond .add-comment .comment-form input:focus,
+            .comment-respond .add-comment .comment-form textarea:focus {
+                border-color: rgba(81, 56, 238, .3)
+            }
 
-.comment-respond .add-comment .comment-form textarea {
-    width: 100%;
-    border-radius: 5px;
-    height: 200px
-}
+        .comment-respond .add-comment .comment-form textarea {
+            width: 100%;
+            border-radius: 5px;
+            height: 200px
+        }
 
-.comment-respond .add-comment .comment-form .default-btn {
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    width: auto;
-    margin: 15px auto 0
-}
+        .comment-respond .add-comment .comment-form .default-btn {
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            width: auto;
+            margin: 15px auto 0
+        }
 
 .contact-item {
     width: 100%;
@@ -7423,34 +7331,34 @@ lesshat-selector {
     transition: all .3s ease
 }
 
-.contact-item:hover {
-    box-shadow: 0 5px 5px rgba(136, 136, 136, .12)
-}
+    .contact-item:hover {
+        box-shadow: 0 5px 5px rgba(136, 136, 136, .12)
+    }
 
-.contact-item .contact-icon {
-    width: 72px
-}
+    .contact-item .contact-icon {
+        width: 72px
+    }
 
-.contact-item .contact-icon i {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 100%;
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    font-size: 24px;
-    background: #f85b82
-}
+        .contact-item .contact-icon i {
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 100%;
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            font-size: 24px;
+            background: #f85b82
+        }
 
-.contact-item .contact-details {
-    width: calc(100% - 72px)
-}
+    .contact-item .contact-details {
+        width: calc(100% - 72px)
+    }
 
-.contact-item .contact-details p {
-    margin: 0
-}
+        .contact-item .contact-details p {
+            margin: 0
+        }
 
 .col-12:nth-child(2) .contact-item .contact-icon i {
     background: #5138ee
@@ -7471,37 +7379,37 @@ lesshat-selector {
     width: 100%
 }
 
-.location-map #map iframe {
-    height: 100%;
-    width: 100%;
-    border: none
-}
+    .location-map #map iframe {
+        height: 100%;
+        width: 100%;
+        border: none
+    }
 
 .contact-form-wrapper {
     border-radius: 5px
 }
 
-.contact-form-wrapper .contact-form p {
-    max-width: 610px
-}
+    .contact-form-wrapper .contact-form p {
+        max-width: 610px
+    }
 
-.contact-form-wrapper .contact-form form input,
-.contact-form-wrapper .contact-form form textarea {
-    background: #040b29;
-    border: 1px solid rgba(255, 255, 255, .1);
-    color: #fff;
-    box-shadow: none
-}
+    .contact-form-wrapper .contact-form form input,
+    .contact-form-wrapper .contact-form form textarea {
+        background: #040b29;
+        border: 1px solid rgba(255, 255, 255, .1);
+        color: #fff;
+        box-shadow: none
+    }
 
-.contact-form-wrapper .contact-form form textarea {
-    height: 225px
-}
+    .contact-form-wrapper .contact-form form textarea {
+        height: 225px
+    }
 
-.contact-form-wrapper .contact-form form .default-btn {
-    margin-top: 25px;
-    border-radius: 5px;
-    border: none
-}
+    .contact-form-wrapper .contact-form form .default-btn {
+        margin-top: 25px;
+        border-radius: 5px;
+        border: none
+    }
 
 @media(min-width: 992px) {
     .contact-form-wrapper .contact-form form .default-btn {
@@ -7548,9 +7456,9 @@ lesshat-selector {
         margin-bottom: 30px
     }
 
-    .contact-info-wrapper .contact-info-content .contact-info-item:last-child {
-        margin-bottom: 0
-    }
+        .contact-info-wrapper .contact-info-content .contact-info-item:last-child {
+            margin-bottom: 0
+        }
 }
 
 @media(max-width: 991px) {
@@ -7560,10 +7468,10 @@ lesshat-selector {
         align-items: center
     }
 
-    .contact-info-wrapper .contact-info-content .contact-info-item .contact-info-inner .contact-info-thumb {
-        margin-bottom: 0;
-        margin-right: 15px
-    }
+        .contact-info-wrapper .contact-info-content .contact-info-item .contact-info-inner .contact-info-thumb {
+            margin-bottom: 0;
+            margin-right: 15px
+        }
 }
 
 .contact-info-wrapper .contact-info-content .contact-info-item .contact-info-inner .contact-info-thumb {
@@ -7579,10 +7487,10 @@ lesshat-selector {
     background-position: center
 }
 
-.footer-top .footer-newsletter {
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-    padding-block: 50px
-}
+    .footer-top .footer-newsletter {
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+        padding-block: 50px
+    }
 
 @media(min-width: 992px) {
     .footer-top .footer-newsletter {
@@ -7605,9 +7513,9 @@ lesshat-selector {
     border-radius: 2px
 }
 
-.footer-top form input::placeholder {
-    color: #fff
-}
+    .footer-top form input::placeholder {
+        color: #fff
+    }
 
 .footer-top form input,
 .footer-top form button {
@@ -7629,23 +7537,23 @@ lesshat-selector {
     transition: all .3s ease
 }
 
-.footer-top form button:hover {
-    background: #2f13e0
-}
+    .footer-top form button:hover {
+        background: #2f13e0
+    }
 
 .footer-top .social-list {
     gap: 20px
 }
 
-.footer-top .social-list .social-link a {
-    background: #5138ee;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 2px;
-    font-size: 20px
-}
+    .footer-top .social-list .social-link a {
+        background: #5138ee;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 2px;
+        font-size: 20px
+    }
 
 @media(min-width: 992px) {
     .footer-top .social-list .social-link a {
@@ -7664,33 +7572,33 @@ lesshat-selector {
     padding-block: 5px
 }
 
-.footer-link-item .footer-link-list .footer-link:before {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 2px solid #5138ee;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%)
-}
+    .footer-link-item .footer-link-list .footer-link:before {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #5138ee;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%)
+    }
 
 .footer-section.style-2 .footer-top form button {
     background-color: #51ff00;
     color: #000
 }
 
-.footer-section.style-2 .footer-top form button:hover {
-    background-color: #41cc00
-}
+    .footer-section.style-2 .footer-top form button:hover {
+        background-color: #41cc00
+    }
 
 .footer-section.style-2 .footer-top .social-link a {
     background-color: #51ff00;
     color: #000
 }
 
-.footer-section.style-2 .footer-top .social-link a:hover {
-    background-color: #41cc00
-}
+    .footer-section.style-2 .footer-top .social-link a:hover {
+        background-color: #41cc00
+    }
 
 .footer-section.style-2 .footer-link-item .footer-link:hover {
     color: #51ff00
@@ -7709,18 +7617,18 @@ lesshat-selector {
     color: #000
 }
 
-.footer-section.style-4 .footer-top form button:hover {
-    background-color: #e7900e
-}
+    .footer-section.style-4 .footer-top form button:hover {
+        background-color: #e7900e
+    }
 
 .footer-section.style-4 .footer-top .social-link a {
     background-color: #f3a735;
     color: #000
 }
 
-.footer-section.style-4 .footer-top .social-link a:hover {
-    background-color: #e7900e
-}
+    .footer-section.style-4 .footer-top .social-link a:hover {
+        background-color: #e7900e
+    }
 
 .footer-section.style-4 .footer-link-item .footer-link:hover {
     color: #f3a735
@@ -7824,11 +7732,11 @@ body.home-3 {
     }
 }
 
-.nft-item-bottom .nft-content {
-    padding-inline: 10px;
-    padding-bottom: 25px;
-}
+    .nft-item-bottom .nft-content {
+        padding-inline: 10px;
+        padding-bottom: 25px;
+    }
 
-.nft-item-bottom .nft-content h4 {
-    text-transform: uppercase;
-}
+        .nft-item-bottom .nft-content h4 {
+            text-transform: uppercase;
+        }

@@ -69,7 +69,7 @@ export const Team = () => {
               <TeamItem
                 name="RatLab"
                 image="/assets/images/team-3.png"
-                post="Solidity Developer Team"
+                post="Solidity Development Team"
                 url="https://github.com/RatLab2022"
               />
             </div>
