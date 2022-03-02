@@ -66,6 +66,7 @@ export const Team = () => {
                 post="Project Head"
                 url="https://twitter.com/rdtect?t=DGVCjtQTx72pXiVE1KCFUw&amp;s=09"
               />
+              <br/>
               <TeamItem
                 name="RatLab"
                 image="/assets/images/team-3.png"

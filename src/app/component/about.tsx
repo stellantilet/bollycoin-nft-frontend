@@ -15,26 +15,27 @@ export const About = () => {
             <div className="post-item-inner">
               <div className="post-content">
                 <h4>Our intention is to create the first NFT funded film.</h4>
-
+                <br />
                 <ul>
                   <li>
                     The conceptualisation of this project and the entire script
                     is the brainchild of actor Vishal Malhotra who was also the
                     first Indian actor to have released an NFT. A very small
-                    number of NFTs will be listed to ensure the rarity remains
+                    number of NFTs will be minted to ensure the rarity remains
                     high.
                   </li>
                   <li>4 categories of NFTs are available for investors.</li>
                   <li> Platinum, Gold, Silver & Bronze.</li>
                   <li>Each Category comes with its advantages.</li>
                   <li>
-                    The collectors can collect in either the Ethereum or the
-                    Binance chain. Which ever suits them best.
+                    The NFTs have a ERC 721 contract on the Ethereum blockcahin.
                   </li>
                   <li>
                     All collectors of this NFT will automatically become a
                     Producer in this genesis project and will be mentioned by
-                    name in the Credits of the Film.
+                    name in the Credit Roll of the Film. 
+                    A number of individuals could create a multisig wallet, 
+                    in which case the group name would be on the credit roll.
                   </li>
                   <li>
                     A premiere will be held in Mumbai to release this film,
