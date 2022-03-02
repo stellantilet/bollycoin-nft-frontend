@@ -59,7 +59,16 @@ const MintCard = ({
       }
       loadData();
     } catch (error: any) {
-      toast.error(error.message);
+      switch (error.code) {
+        case 4001:
+          break;
+        case "INSUFFICIENT_FUNDS":
+          toast.error("Insufficient fund in your wallet.");
+          break;
+        default:
+          toast.error("Mint failed.");
+          break;
+      }
     }
     setSubmitting(false);
   };
@@ -80,10 +89,7 @@ const MintCard = ({
       setPrice(price.div(BigNumber.from("10000000000000000")).toNumber() / 100);
       setCurrentSupply(currentSupply.toNumber());
       setMaxSupply(maxSupply.toNumber());
-    } catch (error: any) {
-      // await setTimeout(() => {}, 10000);
-      // await loadData();
-    }
+    } catch (error: any) {}
   };
 
   useEffect(() => {
