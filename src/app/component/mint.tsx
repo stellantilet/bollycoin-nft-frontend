@@ -101,7 +101,14 @@ const MintCard = ({
       <div className="blog-item">
         <div className="nft-inner">
           <div className="nft-thumb">
-            <video muted autoPlay className="w-100" poster={image} loop>
+            <video
+              muted
+              autoPlay
+              className="w-100"
+              poster={image}
+              loop
+              controls={false}
+            >
               <source src={animation} type="video/mp4" />
             </video>
           </div>

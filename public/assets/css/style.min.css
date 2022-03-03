@@ -1139,7 +1139,6 @@ ol {
 
 .default-btn span {
     position: inherit;
-    z-index: 1
 }
 
 .default-btn.move-right:before {
@@ -1307,7 +1306,6 @@ ol {
 
     .section-header.style-2 h3 {
         position: inherit;
-        z-index: 1;
         background-color: #000d21;
         padding-inline: 1rem;
         text-transform: uppercase
